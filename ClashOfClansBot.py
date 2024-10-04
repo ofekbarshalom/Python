@@ -13,7 +13,9 @@ def click(x, y):
     time.sleep(0.1)
     win32api.mouse_event(win32con.MOUSEEVENTF_LEFTUP, 0, 0)
 
-def collect_item(image, color):
+
+def collect_item(image):
+    color = not (image == 'bigTree.png')
     try:
         item_location = pyautogui.locateOnScreen(image, grayscale=color, confidence=0.8)
         if item_location is not None:
@@ -26,35 +28,24 @@ def collect_item(image, color):
         print(f"{image} not found")
 
 
-def builderAvailable():
-    try:
-        if (pyautogui.locateOnScreen('builder1.png', grayscale=True, confidence=0.8) is not None or
-                pyautogui.locateOnScreen('builder2.png', grayscale=True, confidence=0.8) is not None):
-            print("builder found")
-            return True
-    except pyautogui.ImageNotFoundException:
-        print("builder not found")
-        return False
-
-
 def remove():
-    collect_item('remove.png', True)
+    collect_item('remove.png')
     time.sleep(0.5)
-    collect_item('youNeedMore.png', True)
+    collect_item('youNeedMore.png')
 
 
-def removeObject(image, color):
-    if collect_item(image, color) and builderAvailable():
+def removeObject(image):
+    if collect_item(image):
         time.sleep(0.5)
         remove()
 
 
 def removeDecorations():
-    removeObject('tree.png', True)
-    removeObject('trunk.png', True)
-    removeObject('bigTree.png', False)
-    removeObject('mushroom.png', True)
-    removeObject('greenTree.png', True)
+    removeObject('tree.png')
+    removeObject('trunk.png')
+    removeObject('bigTree.png')
+    removeObject('mushroom.png')
+    removeObject('greenTree.png')
 
 
 def army():
@@ -62,16 +53,17 @@ def army():
     time.sleep(0.1)
     pyautogui.keyUp('5')
     time.sleep(0.5)
-    collect_item('TrainTroops.png', True)
+    collect_item('TrainTroops.png')
     for i in range(8):
-        collect_item('barbaric.png', True)
+        collect_item('barbaric.png')
     pyautogui.keyDown('5')
     time.sleep(0.1)
     pyautogui.keyUp('5')
-    time.sleep(100)
+    time.sleep(4)
 
 
 def dropArmy():
+    time.sleep(1)
     pyautogui.keyDown('6')
     time.sleep(0.1)
     pyautogui.keyUp('6')
@@ -87,16 +79,16 @@ def war():
     time.sleep(0.1)
     pyautogui.keyUp('6')
     time.sleep(0.5)
-    collect_item('FindMatch.png', True)
+    collect_item('FindMatch.png')
     time.sleep(2)
     dropArmy()
-    while not collect_item('ReturnHome.png', True):
+    while not collect_item('ReturnHome.png'):
         time.sleep(1)
-    time.sleep(2)
+    time.sleep(5)
 
 
 while not keyboard.is_pressed('q'):
-    collect_item('coin.png', True)
-    collect_item('elixir.png', True)
+    collect_item('coin.png')
+    collect_item('elixir.png')
     removeDecorations()
-    #war()
+    war()
