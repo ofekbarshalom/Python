@@ -15,7 +15,7 @@ def click(x, y):
 
 
 def collect_item(image):
-    color = not (image == 'bigTree.png')
+    color = not ((image == 'bigTree.png') or (image == 'achievement.png'))
     try:
         item_location = pyautogui.locateOnScreen(image, grayscale=color, confidence=0.8)
         if item_location is not None:
@@ -46,6 +46,13 @@ def removeDecorations():
     removeObject('bigTree.png')
     removeObject('mushroom.png')
     removeObject('greenTree.png')
+    removeObject('biggerTree.png')
+    removeObject('bigStone.png')
+    removeObject('longStone.png')
+    removeObject('sqrStone.png')
+    removeObject('smallStone.png')
+    removeObject('roundStone.png')
+
 
 
 def army():
@@ -84,11 +91,32 @@ def war():
     dropArmy()
     while not collect_item('ReturnHome.png'):
         time.sleep(1)
-    time.sleep(5)
+    time.sleep(100)
+
+def achievement():
+    if collect_item('achievement.png'):
+        time.sleep(1)
+        collect_item('claimReward.png')
+        time.sleep(0.2)
+        pyautogui.keyDown('4')
+        time.sleep(0.1)
+        pyautogui.keyUp('4')
+
+def build():
+    collect_item('builder.png')
 
 
 while not keyboard.is_pressed('q'):
     collect_item('coin.png')
+    time.sleep(0.1)
     collect_item('elixir.png')
+    time.sleep(0.1)
+    collect_item('grave.png')
+    time.sleep(0.1)
+    achievement()
     removeDecorations()
+    time.sleep(0.1)
+    #build()
+    time.sleep(0.1)
     war()
+
