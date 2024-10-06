@@ -1,11 +1,12 @@
 import time
 import keyboard
 import pyautogui
+import pytesseract
 import win32api
 import win32con
+from PIL import Image
 
 time.sleep(1)
-
 
 def click(x, y):
     win32api.SetCursorPos((x, y))
@@ -15,18 +16,32 @@ def click(x, y):
 
 
 def collect_item(image):
-    color = not ((image == 'bigTree.png') or (image == 'achievement.png'))
+    color = not ((image == 'bigTree.png') or (image == 'achievement.png') or (image == 'New.png') or (image == 'biggerTree.png') or (image == 'sqrStone.png'))
     try:
         item_location = pyautogui.locateOnScreen(image, grayscale=color, confidence=0.8)
         if item_location is not None:
             print(f"{image} found")
             # Get the center of the located image
             item_x, item_y = pyautogui.center(item_location)
+            if image == 'arrow.png':
+                item_x -= 100
+                item_y += 50
             click(item_x, item_y)
             return True
+
     except pyautogui.ImageNotFoundException:
         print(f"{image} not found")
 
+def build():
+    collect_item('builder.png')
+    time.sleep(0.2)
+    collect_item('New.png')
+    time.sleep(2)
+    for i in range(20):
+        time.sleep(0.05)
+        collect_item('arrow.png')
+    collect_item('V.png')
+    collect_item('X.png')
 
 def remove():
     collect_item('remove.png')
@@ -34,25 +49,24 @@ def remove():
     collect_item('youNeedMore.png')
 
 
-def removeObject(image):
+def remove_object(image):
     if collect_item(image):
         time.sleep(0.5)
         remove()
 
 
 def removeDecorations():
-    removeObject('tree.png')
-    removeObject('trunk.png')
-    removeObject('bigTree.png')
-    removeObject('mushroom.png')
-    removeObject('greenTree.png')
-    removeObject('biggerTree.png')
-    removeObject('bigStone.png')
-    removeObject('longStone.png')
-    removeObject('sqrStone.png')
-    removeObject('smallStone.png')
-    removeObject('roundStone.png')
-
+    remove_object('tree.png')
+    remove_object('trunk.png')
+    remove_object('bigTree.png')
+    remove_object('mushroom.png')
+    remove_object('greenTree.png')
+    remove_object('biggerTree.png')
+    remove_object('bigStone.png')
+    remove_object('longStone.png')
+    remove_object('sqrStone.png')
+    remove_object('smallStone.png')
+    remove_object('roundStone.png')
 
 
 def army():
@@ -69,7 +83,7 @@ def army():
     time.sleep(4)
 
 
-def dropArmy():
+def drop_army():
     time.sleep(1)
     pyautogui.keyDown('6')
     time.sleep(0.1)
@@ -88,10 +102,11 @@ def war():
     time.sleep(0.5)
     collect_item('FindMatch.png')
     time.sleep(2)
-    dropArmy()
+    drop_army()
     while not collect_item('ReturnHome.png'):
         time.sleep(1)
     time.sleep(100)
+
 
 def achievement():
     if collect_item('achievement.png'):
@@ -101,9 +116,6 @@ def achievement():
         pyautogui.keyDown('4')
         time.sleep(0.1)
         pyautogui.keyUp('4')
-
-def build():
-    collect_item('builder.png')
 
 
 while not keyboard.is_pressed('q'):
@@ -116,7 +128,6 @@ while not keyboard.is_pressed('q'):
     achievement()
     removeDecorations()
     time.sleep(0.1)
-    #build()
+    build()
     time.sleep(0.1)
     war()
-
