@@ -8,40 +8,6 @@ from PIL import Image
 
 time.sleep(1)
 
-
-# pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
-#
-#
-# def search_word(imagePath, word):
-#     try:
-#         img = Image.open(imagePath)
-#         data = pytesseract.image_to_string(img)
-#         for i in range(len(data['text'])):
-#             if word.lower() in data['text'][i].lower():
-#                 print(f"'{word}' found at ({data['left'][i]}, {data['top'][i]})")
-#
-#                 # Get the position and dimensions of the word
-#                 x = data['left'][i]
-#                 y = data['top'][i]
-#                 w = data['width'][i]
-#                 h = data['height'][i]
-#
-#                 # Simulate a click at the center of the word
-#                 click(x + w // 2, y + h // 2)
-#
-#                 return True
-#
-#     except Exception:
-#         print("word not found")
-#         return False
-#
-# def screenshot():
-#     screenshots = pyautogui.screenshot()
-#     screenshots.save(r'C:\Users\ofekb\PycharmProjects\coc_bot\screenshots.png')
-#     print("screenshot saved")
-
-#search_word(r'C:\Users\ofekb\PycharmProjects\coc_bot\screenshots.png', 'New')
-
 def click(x, y):
     win32api.SetCursorPos((x, y))
     win32api.mouse_event(win32con.MOUSEEVENTF_LEFTDOWN, 0, 0)
