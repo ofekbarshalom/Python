@@ -1,6 +1,6 @@
 # Ofek's Telegram Bot
 
-This is a simple Telegram bot built using the `python-telegram-bot` library. The bot can respond to text messages and handle simple commands like `/start`, `/help`, and a custom command.
+This is a Telegram bot built using the `python-telegram-bot` library. The bot can respond to text messages and handle simple commands like `/start`, `/help`, and a custom command.
 
 ## Features
 
