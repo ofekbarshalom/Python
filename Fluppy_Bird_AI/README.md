@@ -31,38 +31,7 @@ This project demonstrates the use of **Genetic Algorithms** and the **NEAT (Neur
       - `base.png`
       - `bg.png`
 
-4. Ensure that the **NEAT configuration file** is present. You should have a `config-feedforward.txt` file that contains the NEAT algorithm's parameters. A sample of this configuration is included below:
-
-    ```ini
-    [NEAT]
-    fitness_criterion     = max
-    fitness_threshold     = 100
-    pop_size              = 20
-    reset_on_extinction   = False
-
-    [DefaultGenome]
-    # node activation options
-    activation_default      = tanh
-    activation_mutate_rate  = 0.0
-    activation_options      = tanh
-
-    # genome compatibility options
-    compatibility_disjoint_coefficient = 1.0
-    compatibility_weight_coefficient   = 0.5
-
-    # connection add/remove rates
-    conn_add_prob           = 0.5
-    conn_delete_prob        = 0.5
-
-    # node add/remove rates
-    node_add_prob           = 0.2
-    node_delete_prob        = 0.2
-
-    # network parameters
-    num_hidden              = 0
-    num_inputs              = 3
-    num_outputs             = 1
-    ```
+4. Ensure that the **NEAT configuration file** is present. You should have a `config-feedforward.txt` file that contains the NEAT algorithm's parameters.
 
     Ensure you have this file saved as `config-feedforward.txt` in the same directory as your Python code.
 
