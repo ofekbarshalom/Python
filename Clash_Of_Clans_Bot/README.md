@@ -1,4 +1,4 @@
-# Clash Royale Bot
+# Clash Of Clans Bot
 
 This project is a bot for automating gameplay in **Clash Of Clans** using **Python**. The bot can find and collect elixir, start matches, and deploy troops based on the game state.
 
