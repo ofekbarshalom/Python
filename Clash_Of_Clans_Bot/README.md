@@ -1,6 +1,6 @@
 # Clash Of Clans Bot
 
-This project is a bot for automating gameplay in **Clash Of Clans** using **Python**. The bot can find and collect elixir, start matches, and deploy troops based on the game state.
+This project is a bot for automating gameplay in **Clash Of Clans** using **Python**. The bot can find and collect elixir, start matches, and deploy troops based on the game state. This bot is for the Builder Base battles
 
 ## Key Features
 
@@ -54,7 +54,7 @@ This project is a bot for automating gameplay in **Clash Of Clans** using **Pyth
 
 ## Usage
 
-- Start the game and position the game window as required.
+- Start the game and size the game window as required.
 - Execute the bot script. The bot will begin detecting game elements and performing actions based on the game state.
 - Press 'q' at any time to stop the bot.
 
