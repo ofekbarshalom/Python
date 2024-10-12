@@ -1,4 +1,10 @@
 #!/bin/python3
+# This script is a simple port scanner that checks for open ports
+# on a specified target IP address or hostname. It scans ports 
+# in the range from 50 to 84 and reports whether each port is open 
+# or closed. The script takes one command-line argument, which 
+# should be the target hostname or IP address.
+
 import sys
 import socket
 from datetime import datetime
