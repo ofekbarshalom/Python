@@ -44,13 +44,9 @@ This project is a bot for automating gameplay in **Clash Royale** using **Python
 
 ## Usage
 
-- Start the game and position the game window as required.
+- position the game window as required.
 - Execute the bot script. The bot will start detecting game elements and performing actions based on the game state.
 - Press 'q' at any time to stop the bot.
-
-## Credits
-
-This bot was developed by Ofek. Feel free to modify and adapt it for your own use!
 
 ## License
 
