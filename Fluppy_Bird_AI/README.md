@@ -33,7 +33,6 @@ This project demonstrates the use of **Genetic Algorithms** and the **NEAT (Neur
 
 4. Ensure that the **NEAT configuration file** is present. You should have a `config-feedforward.txt` file that contains the NEAT algorithm's parameters.
 
-    Ensure you have this file saved as `config-feedforward.txt` in the same directory as your Python code.
 
 5. Run the project:
 
