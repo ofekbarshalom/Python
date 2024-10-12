@@ -1,12 +1,12 @@
 # Flappy Bird AI with NEAT and Genetic Algorithm
 
-This project showcases the power of **Genetic Algorithms** combined with the **NEAT (NeuroEvolution of Augmenting Topologies)** algorithm to teach an AI how to play the game of Flappy Bird. Over generations, the AI evolves to improve its ability to pass through pipes by making smarter decisions.
+This project demonstrates the use of **Genetic Algorithms** and the **NEAT (NeuroEvolution of Augmenting Topologies)** algorithm to evolve an AI that plays Flappy Bird. The AI learns to improve its gameplay over generations through evolution.
 
 ## Key Features
 
-- **NEAT Algorithm:** The AI uses the NEAT algorithm to evolve neural networks that control the bird's movement. NEAT allows the structure of the neural networks to grow and change over time, optimizing both the topology and weights of the network.
+- **NEAT Algorithm:** The AI is powered by NEAT, which evolves neural networks by optimizing both their structure and their weights over time.
   
-- **Genetic Algorithm:** This project is powered by a genetic algorithm, simulating the process of natural selection. Over multiple generations, the AI learns by keeping the "fittest" birds and allowing them to pass on their traits through mutation and crossover, improving their performance with each iteration.
+- **Genetic Algorithm:** The project uses a genetic algorithm to simulate natural selection, where the fittest birds are selected to reproduce and pass on their traits to the next generation, improving with each iteration.
 
 ## Installation
 
@@ -23,7 +23,7 @@ This project showcases the power of **Genetic Algorithms** combined with the **N
     ```
 
 3. Add the necessary image files:
-    - Place the bird, pipe, base, and background images in a folder called `imgs` within the project directory. Make sure the files are named:
+    - Create a folder named `imgs` in the project directory and place the following files inside it:
       - `bird1.png`
       - `bird2.png`
       - `bird3.png`
@@ -31,7 +31,42 @@ This project showcases the power of **Genetic Algorithms** combined with the **N
       - `base.png`
       - `bg.png`
 
-4. Run the project:
+4. Ensure that the **NEAT configuration file** is present. You should have a `config-feedforward.txt` file that contains the NEAT algorithm's parameters. A sample of this configuration is included below:
+
+    ```ini
+    [NEAT]
+    fitness_criterion     = max
+    fitness_threshold     = 100
+    pop_size              = 20
+    reset_on_extinction   = False
+
+    [DefaultGenome]
+    # node activation options
+    activation_default      = tanh
+    activation_mutate_rate  = 0.0
+    activation_options      = tanh
+
+    # genome compatibility options
+    compatibility_disjoint_coefficient = 1.0
+    compatibility_weight_coefficient   = 0.5
+
+    # connection add/remove rates
+    conn_add_prob           = 0.5
+    conn_delete_prob        = 0.5
+
+    # node add/remove rates
+    node_add_prob           = 0.2
+    node_delete_prob        = 0.2
+
+    # network parameters
+    num_hidden              = 0
+    num_inputs              = 3
+    num_outputs             = 1
+    ```
+
+    Ensure you have this file saved as `config-feedforward.txt` in the same directory as your Python code.
+
+5. Run the project:
 
     ```bash
     python main.py
@@ -39,19 +74,22 @@ This project showcases the power of **Genetic Algorithms** combined with the **N
 
 ## How It Works
 
-- **NEAT & Genetic Algorithm:** This project uses NEAT, a genetic algorithm designed to evolve neural networks. The AI birds learn to play Flappy Bird by receiving feedback on their fitness (how far they progress in the game). NEAT evolves these networks by simulating natural selection, favoring birds that survive longer and make smarter decisions.
+- **Genetic Algorithm & NEAT:** The project employs the NEAT algorithm, which evolves neural networks by adapting both the network's topology and connection weights. The fitness function rewards birds for staying alive longer and successfully passing through pipes. Over time, only the best-performing birds are kept, and their traits are passed on to the next generation.
 
-- **Fitness Function:** Birds are rewarded for staying alive and successfully passing through pipes. Those with the highest fitness scores survive to pass on their traits to the next generation, with occasional mutations introduced to improve performance.
+- **Fitness Function:** Birds earn fitness points for surviving longer and passing through pipes. The fittest birds are selected for the next generation, with mutations introduced to improve performance.
+
+- **NEAT Configuration:** The project uses the `config-feedforward.txt` file to configure how the NEAT algorithm runs. This file includes parameters such as population size, mutation rates, and network structure.
 
 ## Configuring NEAT
 
-The `config-feedforward.txt` file contains all the configurations for NEAT, including population size, mutation rates, and other parameters. You can tweak these settings to see how they affect the AI's learning process.
+If you want to tweak the NEAT algorithm, you can modify the settings in the `config-feedforward.txt` file. Some key parameters include:
+- **Population Size:** Determines how many birds are simulated in each generation.
+- **Mutation Rates:** Controls how frequently mutations occur during the evolution process.
+- **Fitness Threshold:** The required fitness level for the algorithm to consider the problem solved.
 
 ## Credits
 
-This project is based on the **Python Flappy Bird AI Tutorial** created by **Tech with Tim** on YouTube.
-
-You can watch the tutorial series here: [Python Flappy Bird AI Tutorial (with NEAT)](https://www.youtube.com/watch?v=OGHA-elMrxI).
+This project is based on the **Python Flappy Bird AI Tutorial** created by **Tech with Tim**. You can watch the tutorial series here: [Python Flappy Bird AI Tutorial (with NEAT)](https://www.youtube.com/watch?v=OGHA-elMrxI).
 
 ## License
 
