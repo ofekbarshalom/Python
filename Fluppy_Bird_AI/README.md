@@ -46,7 +46,7 @@ This project demonstrates the use of **Genetic Algorithms** and the **NEAT (Neur
 
 - **Fitness Function:** Birds earn fitness points for surviving longer and passing through pipes. The fittest birds are selected for the next generation, with mutations introduced to improve performance.
 
-- **NEAT Configuration:** The project uses the `config-feedforward.txt` file to configure how the NEAT algorithm runs. This file includes parameters such as population size, mutation rates, and network structure.
+- **NEAT Configuration:** The project uses the `config-feedforward.txt` file to configure how the NEAT algorithm runs. 
 
 ## Configuring NEAT
 
