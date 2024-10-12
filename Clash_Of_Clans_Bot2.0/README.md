@@ -67,13 +67,10 @@ This project is a bot for automating gameplay in **Clash of Clans** using **Pyth
 
 ## Usage
 
-- Start the game and position the game window as required.
-- Execute the bot script. The bot will begin detecting game elements and performing actions based on the game state.
+- Start the game and size the game window as required.
+- Execute the bot script.
 - Press 'q' at any time to stop the bot.
 
-## Credits
-
-This bot was developed by Ofek. Feel free to modify and adapt it for your own use!
 
 ## License
 
