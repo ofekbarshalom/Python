@@ -1,4 +1,4 @@
-# Python Projects
+# Python Projects Repository
 
 Welcome to my collection of Python projects!
 This repository showcases a variety of projects that I've developed to enhance my skills in Python programming.
