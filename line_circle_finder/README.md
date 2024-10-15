@@ -1,6 +1,6 @@
-# Circle Detection Script
+# line and Circle Detection Script
 
-This script captures a portion of the screen and detects circles using OpenCV. It uses the `mss` library for screen capturing and the `cv2` (OpenCV) library for image processing.
+This script captures a portion of the screen and detects lines and circles using OpenCV, it applies several algorithms, including color conversion, Gaussian blur, edge detection, and region masking. It uses the `mss` library for screen capturing and the `cv2` (OpenCV) library for image processing.
 
 ## Requirements
 
