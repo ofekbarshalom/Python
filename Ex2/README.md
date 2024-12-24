@@ -1,4 +1,4 @@
-# Exercise 2 - Application Layer Communication using Python
+# Exercise 2 in computer network course - Application Layer Communication using Python
 
 This project implements an application layer communication protocol using Python sockets. It includes a server, a proxy, and a client that communicate using a custom protocol. The server performs calculations, while the proxy handles caching of responses to reduce redundant requests.
 
@@ -52,14 +52,14 @@ This starts the client and connects it to the proxy on port `8888`. The client a
 
 ### 4. Interaction
 
-The client will display a menu with predefined mathematical expressions. Select an expression by entering the corresponding number and press Enter. The result will be displayed along with the steps (if applicable).
+The client will display a menu with predefined mathematical expressions. Select an expression by entering the corresponding number and press Enter. The result will be displayed along with the steps.
 
 To exit the client, enter `0` and press Enter.
 
 ## Additional Notes
 
 - **Caching Behavior**: The proxy caches responses. If the same request is sent again, the proxy returns the cached response without contacting the server.
-- **Protocol**: The communication protocol is defined in `api.py`. It uses a custom header structure for transmitting requests and responses.
+- **Protocol**: The communication protocol is defined in `api.py`. It uses a custom header structure for transmitting requests and responses, as in TCP.
 - **Debugging**: All errors and logs are printed in the respective terminals for easier debugging.
 
 ## Example Usage
