@@ -118,9 +118,8 @@ def send_packets(client_socket, packets, window_size, timeout):
 
         if window_moved:  # Send packets within the window if the window has moved
             for i in range(window_start, min(window_start + int(window_size), len(packets))):
-                if i == 1:
-                    continue
-                if not packetsACK[i]:  # Only send unacknowledged packets
+                # Only send unacknowledged packets
+                if not packetsACK[i]:  
                     print(f"Sending packet {i}: {packets[i]}")
                     client_socket.send(packets[i].encode())  # Send the packet
 
