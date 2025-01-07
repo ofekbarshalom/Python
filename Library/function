@@ -1,0 +1,26 @@
+import csv
+
+@staticmethod
+def create_csv(file_path="new_file.csv", headers=None):
+    if headers is None or not isinstance(headers, list):
+        raise ValueError("Headers must be provided as a list of column names.")
+
+    try:
+        # Try opening the file in read mode to check if it exists and has content
+        with open(file_path, mode='r', newline='', encoding='utf-8') as file:
+            reader = csv.reader(file)
+            first_row = next(reader, None)  # Read the first row or None if empty
+
+            if first_row:  # If the file has a header or content, do nothing
+                print(f"The file '{file_path}' already exists. No changes were made.")
+                return
+
+    except FileNotFoundError:
+        # If the file does not exist, proceed to create it
+        pass
+
+    # If the file doesn't exist or is empty, create it and write the headers
+    with open(file_path, mode='w', newline='', encoding='utf-8') as file:
+        writer = csv.writer(file)
+        writer.writerow(headers)
+        print(f"Headers added to '{file_path}': {headers}")
