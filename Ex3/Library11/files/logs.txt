@@ -1,0 +1,25 @@
+2025-01-11 17:01:16,748 - SystemLogger - INFO - logged in successfully
+2025-01-11 17:01:24,975 - SystemLogger - INFO - Testing logger functionality.
+2025-01-11 17:02:19,285 - SystemLogger - INFO - logged in successfully
+2025-01-11 17:02:33,938 - SystemLogger - INFO - logged in successfully
+2025-01-11 17:03:13,015 - SystemLogger - INFO - logged in successfully
+2025-01-11 17:05:37,933 - SystemLogger - INFO - logged in successfully
+2025-01-11 17:07:45,986 - SystemLogger - INFO - logged in successfully
+2025-01-11 17:08:29,223 - SystemLogger - INFO - Book added successfully
+2025-01-11 17:08:44,344 - SystemLogger - INFO - logged in successfully
+2025-01-11 17:09:02,062 - SystemLogger - INFO - registered successfully
+2025-01-11 17:09:07,195 - SystemLogger - INFO - registered successfully
+2025-01-11 17:09:21,731 - SystemLogger - INFO - registered successfully
+2025-01-11 17:09:44,220 - SystemLogger - INFO - logged in successfully
+2025-01-11 17:24:08,287 - SystemLogger - INFO - logged in successfully
+2025-01-11 17:25:00,133 - SystemLogger - ERROR - registered fail
+2025-01-11 17:25:00,306 - SystemLogger - ERROR - registered fail
+2025-01-11 17:25:00,494 - SystemLogger - ERROR - registered fail
+2025-01-11 17:25:17,342 - SystemLogger - ERROR - registered fail
+2025-01-11 17:25:19,886 - SystemLogger - ERROR - registered fail
+2025-01-11 17:28:01,958 - SystemLogger - INFO - logged in successfully
+2025-01-11 17:29:13,036 - SystemLogger - INFO - logged in successfully
+2025-01-11 17:29:56,334 - SystemLogger - ERROR - Registration failed: Name and Password are required.
+2025-01-11 17:29:56,335 - SystemLogger - INFO - Registered successfully
+2025-01-11 17:30:08,221 - SystemLogger - ERROR - Registration failed: Name and Password are required.
+2025-01-11 17:30:08,221 - SystemLogger - INFO - Registered successfully
