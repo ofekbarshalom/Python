@@ -1,0 +1,151 @@
+2025-01-19 22:09:01,172 - SystemLogger - ERROR - Logged in fail
+2025-01-19 22:09:05,022 - SystemLogger - INFO - registered successfully
+2025-01-19 22:09:09,318 - SystemLogger - INFO - logged in successfully
+2025-01-19 22:10:55,408 - SystemLogger - INFO - Book added successfully
+2025-01-19 22:14:19,067 - SystemLogger - INFO - logged in successfully
+2025-01-19 22:14:40,591 - SystemLogger - INFO - Book added successfully
+2025-01-19 22:15:34,556 - SystemLogger - INFO - Book added successfully
+2025-01-19 22:16:03,691 - SystemLogger - INFO - Displayed Unknown successfully
+2025-01-19 22:16:07,129 - SystemLogger - INFO - Displayed Unknown successfully
+2025-01-19 22:16:18,555 - SystemLogger - INFO - book removed successfully
+2025-01-19 22:16:33,640 - SystemLogger - ERROR - book removed fail
+2025-01-19 22:16:44,257 - SystemLogger - INFO - book returned successfully
+2025-01-19 22:16:46,531 - SystemLogger - INFO - book returned successfully
+2025-01-19 22:16:48,527 - SystemLogger - INFO - book returned successfully
+2025-01-19 22:16:50,794 - SystemLogger - INFO - book returned successfully
+2025-01-19 22:16:53,333 - SystemLogger - ERROR - book returned fail
+2025-01-19 22:17:05,450 - SystemLogger - INFO - book removed successfully
+2025-01-19 22:18:04,138 - SystemLogger - INFO - Book added successfully
+2025-01-19 22:18:12,290 - SystemLogger - INFO - Search book 't' by Title completed successfully
+2025-01-19 22:18:19,471 - SystemLogger - INFO - Search book 'o' by Author completed successfully
+2025-01-19 22:18:27,188 - SystemLogger - INFO - Search book 'n' by Genre completed successfully
+2025-01-19 22:18:30,422 - SystemLogger - INFO - Search book 'd' by Genre completed successfully
+2025-01-19 22:18:33,106 - SystemLogger - INFO - Search book 'n' by Genre completed successfully
+2025-01-19 22:18:44,924 - SystemLogger - INFO - book borrowed successfully
+2025-01-19 22:18:50,390 - SystemLogger - INFO - book borrowed successfully
+2025-01-19 22:18:52,086 - SystemLogger - INFO - book borrowed successfully
+2025-01-19 22:18:53,476 - SystemLogger - INFO - book borrowed successfully
+2025-01-19 22:18:55,941 - SystemLogger - INFO - book borrowed successfully
+2025-01-19 22:19:00,725 - SystemLogger - ERROR - book borrowed fail
+2025-01-19 22:19:03,195 - SystemLogger - ERROR - book borrowed fail
+2025-01-19 22:19:08,488 - SystemLogger - ERROR - book borrowed fail
+2025-01-19 22:19:14,034 - SystemLogger - INFO - book returned successfully
+2025-01-19 22:19:23,026 - SystemLogger - INFO - book borrowed successfully
+2025-01-19 22:19:29,226 - SystemLogger - INFO - displayed successfully
+2025-01-19 22:19:40,494 - SystemLogger - INFO - registered successfully
+2025-01-19 22:19:47,508 - SystemLogger - INFO - logged in successfully
+2025-01-19 22:20:00,199 - SystemLogger - INFO - logged in successfully
+2025-01-19 22:21:07,610 - SystemLogger - INFO - logged in successfully
+2025-01-19 22:21:27,692 - SystemLogger - INFO - book borrowed successfully
+2025-01-19 22:21:30,237 - SystemLogger - INFO - book borrowed successfully
+2025-01-19 22:21:37,332 - SystemLogger - ERROR - book borrowed fail
+2025-01-19 22:21:39,576 - SystemLogger - INFO - book borrowed successfully
+2025-01-19 22:21:41,396 - SystemLogger - INFO - book borrowed successfully
+2025-01-19 22:21:42,947 - SystemLogger - INFO - book borrowed successfully
+2025-01-19 22:21:44,994 - SystemLogger - INFO - book borrowed successfully
+2025-01-19 22:21:46,455 - SystemLogger - INFO - book borrowed successfully
+2025-01-19 22:21:48,402 - SystemLogger - INFO - book borrowed successfully
+2025-01-19 22:21:50,641 - SystemLogger - INFO - book borrowed successfully
+2025-01-19 22:21:53,110 - SystemLogger - ERROR - book borrowed fail
+2025-01-19 22:21:54,608 - SystemLogger - ERROR - book borrowed fail
+2025-01-19 22:21:55,057 - SystemLogger - ERROR - book borrowed fail
+2025-01-19 22:22:00,315 - SystemLogger - ERROR - book borrowed fail
+2025-01-19 22:22:07,323 - SystemLogger - ERROR - book borrowed fail
+2025-01-19 22:22:12,405 - SystemLogger - ERROR - book borrowed fail
+2025-01-19 22:22:13,538 - SystemLogger - ERROR - book borrowed fail
+2025-01-19 22:22:18,432 - SystemLogger - ERROR - book borrowed fail
+2025-01-19 22:22:24,764 - SystemLogger - INFO - displayed successfully
+2025-01-19 22:22:43,120 - SystemLogger - INFO - displayed successfully
+2025-01-19 22:22:49,495 - SystemLogger - INFO - book borrowed successfully
+2025-01-19 22:23:02,468 - SystemLogger - INFO - displayed successfully
+2025-01-19 22:27:20,417 - SystemLogger - INFO - logged in successfully
+2025-01-19 22:27:29,197 - SystemLogger - INFO - book borrowed successfully
+2025-01-19 22:27:33,458 - SystemLogger - INFO - book borrowed successfully
+2025-01-19 22:27:35,427 - SystemLogger - INFO - book borrowed successfully
+2025-01-19 22:27:41,895 - SystemLogger - INFO - book borrowed successfully
+2025-01-19 22:27:43,864 - SystemLogger - INFO - book borrowed successfully
+2025-01-19 22:27:46,147 - SystemLogger - INFO - book borrowed successfully
+2025-01-19 22:27:48,310 - SystemLogger - INFO - book borrowed successfully
+2025-01-19 22:27:50,359 - SystemLogger - INFO - book borrowed successfully
+2025-01-19 22:28:02,978 - SystemLogger - INFO - book borrowed successfully
+2025-01-19 22:28:05,490 - SystemLogger - INFO - book borrowed successfully
+2025-01-19 22:28:08,292 - SystemLogger - INFO - book borrowed successfully
+2025-01-19 22:28:10,984 - SystemLogger - INFO - displayed successfully
+2025-01-19 22:28:27,212 - SystemLogger - INFO - displayed successfully
+2025-01-19 22:29:12,791 - SystemLogger - INFO - book borrowed successfully
+2025-01-19 22:29:15,624 - SystemLogger - INFO - displayed successfully
+2025-01-19 22:29:28,177 - SystemLogger - INFO - book borrowed successfully
+2025-01-19 22:29:36,568 - SystemLogger - INFO - book borrowed successfully
+2025-01-19 22:29:45,282 - SystemLogger - INFO - displayed successfully
+2025-01-19 22:29:58,029 - SystemLogger - INFO - displayed successfully
+2025-01-19 22:30:08,985 - SystemLogger - ERROR - book borrowed fail
+2025-01-19 22:30:09,853 - SystemLogger - ERROR - book borrowed fail
+2025-01-19 22:30:15,585 - SystemLogger - ERROR - book borrowed fail
+2025-01-19 22:30:17,347 - SystemLogger - INFO - displayed successfully
+2025-01-19 22:33:00,897 - SystemLogger - INFO - logged in successfully
+2025-01-19 22:33:09,486 - SystemLogger - INFO - Search book '' by Title completed successfully
+2025-01-19 22:33:46,187 - SystemLogger - INFO - logged in successfully
+2025-01-19 22:35:48,413 - SystemLogger - ERROR - registered fail
+2025-01-19 22:36:00,007 - SystemLogger - ERROR - Logged in fail
+2025-01-19 22:36:03,389 - SystemLogger - ERROR - Logged in fail
+2025-01-19 22:36:48,899 - SystemLogger - ERROR - Logged in fail
+2025-01-19 22:38:52,242 - SystemLogger - ERROR - Logged in fail
+2025-01-19 22:39:12,762 - SystemLogger - ERROR - Logged in fail
+2025-01-19 22:39:23,585 - SystemLogger - ERROR - registered fail
+2025-01-19 22:39:45,354 - SystemLogger - ERROR - Logged in fail
+2025-01-19 22:44:30,114 - SystemLogger - ERROR - Logged in fail
+2025-01-19 22:44:31,724 - SystemLogger - ERROR - Logged in fail
+2025-01-19 22:55:48,090 - SystemLogger - ERROR - Logged in fail
+2025-01-19 22:57:29,064 - SystemLogger - ERROR - Logged in fail
+2025-01-19 22:59:16,030 - SystemLogger - ERROR - Logged in fail
+2025-01-19 23:04:11,553 - SystemLogger - ERROR - Logged in fail
+2025-01-19 23:11:39,537 - SystemLogger - ERROR - registered fail
+2025-01-19 23:13:02,472 - SystemLogger - ERROR - Logged in fail
+2025-01-19 23:13:31,756 - SystemLogger - ERROR - Logged in fail
+2025-01-19 23:13:49,007 - SystemLogger - ERROR - Logged in fail
+2025-01-19 23:16:21,222 - SystemLogger - ERROR - Logged in fail
+2025-01-19 23:21:00,980 - SystemLogger - ERROR - Logged in fail
+2025-01-19 23:25:58,754 - SystemLogger - ERROR - registered fail
+2025-01-19 23:26:04,786 - SystemLogger - ERROR - registered fail
+2025-01-19 23:26:11,859 - SystemLogger - INFO - registered successfully
+2025-01-19 23:26:17,058 - SystemLogger - ERROR - Logged in fail
+2025-01-19 23:26:22,454 - SystemLogger - INFO - logged in successfully
+2025-01-19 23:26:33,084 - SystemLogger - ERROR - Book added fail
+2025-01-19 23:26:45,256 - SystemLogger - ERROR - Book added fail
+2025-01-19 23:26:50,139 - SystemLogger - ERROR - Book added fail
+2025-01-19 23:26:54,616 - SystemLogger - INFO - Book added successfully
+2025-01-19 23:27:04,734 - SystemLogger - ERROR - book removed fail
+2025-01-19 23:27:10,690 - SystemLogger - INFO - book removed successfully
+2025-01-19 23:27:19,060 - SystemLogger - INFO - Search book 'y' by Title completed successfully
+2025-01-19 23:27:22,388 - SystemLogger - INFO - Search book 'h' by Title completed successfully
+2025-01-19 23:27:29,716 - SystemLogger - INFO - Search book 'h' by Author completed successfully
+2025-01-19 23:27:42,866 - SystemLogger - INFO - Search book 'a' by Genre completed successfully
+2025-01-19 23:27:54,560 - SystemLogger - INFO - book borrowed successfully
+2025-01-19 23:28:04,129 - SystemLogger - ERROR - book borrowed fail
+2025-01-19 23:28:11,623 - SystemLogger - ERROR - book borrowed fail
+2025-01-19 23:28:19,383 - SystemLogger - INFO - book returned successfully
+2025-01-19 23:28:24,528 - SystemLogger - ERROR - book returned fail
+2025-01-19 23:28:38,292 - SystemLogger - ERROR - book borrowed fail
+2025-01-19 23:28:43,991 - SystemLogger - INFO - book borrowed successfully
+2025-01-19 23:28:49,657 - SystemLogger - INFO - displayed successfully
+2025-01-19 23:28:54,996 - SystemLogger - INFO - log out successfully
+2025-01-19 23:28:59,810 - SystemLogger - INFO - logged in successfully
+2025-01-19 23:29:08,213 - SystemLogger - INFO - logged in successfully
+2025-01-19 23:29:17,180 - SystemLogger - INFO - registered successfully
+2025-01-19 23:29:20,616 - SystemLogger - INFO - logged in successfully
+2025-01-20 09:53:52,903 - SystemLogger - ERROR - Logged in fail
+2025-01-20 09:54:06,274 - SystemLogger - INFO - logged in successfully
+2025-01-20 09:54:23,489 - SystemLogger - ERROR - book borrowed fail
+2025-01-20 16:04:47,701 - SystemLogger - INFO - logged in successfully
+2025-01-20 17:01:15,744 - SystemLogger - ERROR - Logged in fail
+2025-01-20 17:01:20,317 - SystemLogger - ERROR - Logged in fail
+2025-01-20 17:03:33,873 - SystemLogger - ERROR - Logged in fail
+2025-01-20 17:13:21,170 - SystemLogger - INFO - logged in successfully
+2025-01-20 17:13:23,839 - SystemLogger - INFO - displayed successfully
+2025-01-20 17:23:23,888 - SystemLogger - INFO - logged in successfully
+2025-01-20 17:23:27,775 - SystemLogger - INFO - displayed successfully
+2025-01-20 17:23:44,565 - SystemLogger - INFO - displayed successfully
+2025-01-20 17:24:05,617 - SystemLogger - INFO - logged in successfully
+2025-01-20 17:24:08,514 - SystemLogger - INFO - displayed successfully
+2025-01-20 17:24:53,423 - SystemLogger - INFO - logged in successfully
+2025-01-20 17:24:55,809 - SystemLogger - INFO - displayed successfully
