@@ -1,0 +1,790 @@
+No.,Time,Source,Destination,Protocol,Length,Info,App,Log_Length
+1,0.0,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+2,1.48e-05,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+3,2.12e-05,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+4,2.87e-05,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+5,3.57e-05,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+6,7.99e-05,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+7,8.72e-05,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+8,9.46e-05,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+9,0.000102,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+10,0.000123101,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+11,0.020491641,2,4,1,1294,Application Data,Google,7.166265974133638
+12,0.05493178,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+13,0.05493918,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+14,0.05494628,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+15,0.055452683,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+16,0.055460483,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+17,0.058704706,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+18,0.058719406,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+19,0.061465425,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+20,0.068541974,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+21,0.068549974,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+22,0.068557374,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+23,0.071460094,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+24,0.079027446,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+25,0.079035246,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+26,0.079042546,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+27,0.08241217,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+28,0.084218282,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+29,0.0867231,2,4,1,1294,Application Data,Google,7.166265974133638
+30,0.36785725,2,4,1,1294,"Application Data, Application Data",Google,7.166265974133638
+31,0.367893651,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+32,0.368230253,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+33,0.368244853,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+34,0.368266853,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+35,0.368494055,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+36,0.368508955,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+37,0.368516255,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+38,0.368523255,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+39,0.368797257,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+40,0.368804657,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+41,0.368812157,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+42,0.368819457,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+43,0.369030059,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+44,0.369037059,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+45,0.369044459,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+46,0.369051959,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+47,0.369337461,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+48,0.369344361,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+49,0.369351661,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+50,0.369358961,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+51,0.369568062,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+52,0.384398363,2,4,1,1294,Application Data,Google,7.166265974133638
+53,0.409227932,2,4,1,1294,Application Data,Google,7.166265974133638
+54,0.409234933,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+55,0.417449789,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+56,0.424895639,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+57,0.433666199,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+58,0.433674299,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+59,0.445637882,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+60,0.459407577,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+61,0.459444478,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+62,0.464415612,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+63,0.470040651,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+64,0.478760411,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+65,0.489868588,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+66,0.490682694,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+67,0.500720763,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+68,0.5060699,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+69,0.772901851,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+70,0.772908351,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+71,0.772914152,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+72,0.772919952,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+73,0.773671257,2,4,1,2502,"Application Data, Application Data, Application Data",Google,7.825245291431774
+74,0.773677157,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+75,0.773682957,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+76,0.773766158,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+77,0.773783458,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+78,0.773844758,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+79,0.773850558,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+80,0.773862158,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+81,0.773927159,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+82,0.773932959,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+83,0.774453962,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+84,0.774461362,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+85,0.774468663,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+86,0.774475462,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+87,0.774618063,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+88,0.774624864,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+89,0.774631864,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+90,0.774638763,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+91,0.78295562,2,4,1,1294,Application Data,Google,7.166265974133638
+92,0.813990631,2,4,1,1294,Application Data,Google,7.166265974133638
+93,0.813998231,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+94,0.821752484,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+95,0.830545244,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+96,0.833064162,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+97,0.838774201,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+98,0.856823826,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+99,0.857234029,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+100,0.860925854,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+101,0.864881082,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+102,0.872626335,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+103,0.885637025,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+104,0.885977927,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+105,1.143432706,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+106,1.143834209,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+107,1.144024411,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+108,1.144350413,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+109,1.144361613,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+110,1.144484214,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+111,1.144489814,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+112,1.144495314,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+113,1.144500914,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+114,1.144538514,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+115,1.144544114,2,4,1,2502,"Application Data, Application Data, Application Data",Google,7.825245291431774
+116,1.144549715,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+117,1.144555114,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+118,1.144605315,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+119,1.144611015,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+120,1.144616515,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+121,1.144622015,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+122,1.144672515,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+123,1.144678015,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+124,1.144689115,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+125,1.144694616,2,4,1,1294,Application Data,Google,7.166265974133638
+126,1.144788016,2,4,1,1294,Application Data,Google,7.166265974133638
+127,1.144793516,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+128,1.144799016,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+129,1.19287285,2,4,1,1294,Application Data,Google,7.166265974133638
+130,1.205414136,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+131,1.205421437,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+132,1.212835988,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+133,1.220150338,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+134,1.221358947,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+135,1.230150108,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+136,1.236714653,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+137,1.242763695,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+138,1.254641277,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+139,1.25507958,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+140,1.260766919,2,4,1,1294,Application Data,Google,7.166265974133638
+141,1.264520946,2,4,1,1294,Application Data,Google,7.166265974133638
+142,1.52992198,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+143,1.52993948,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+144,1.52994528,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+145,1.530002981,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+146,1.530008981,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+147,1.530014681,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+148,1.530020281,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+149,1.530075381,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+150,1.530081381,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+151,1.530087181,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+152,1.530092981,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+153,1.530105181,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+154,1.530111282,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+155,1.530116982,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+156,1.530122782,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+157,1.530211883,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+158,1.530217683,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+159,1.530223683,2,4,1,2502,"Application Data, Application Data, Application Data",Google,7.825245291431774
+160,1.530229483,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+161,1.530243283,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+162,1.530249183,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+163,1.530254883,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+164,1.530260683,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+165,1.530289083,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+166,1.538723541,2,4,1,1294,Application Data,Google,7.166265974133638
+167,1.575280195,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+168,1.575308495,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+169,1.575316395,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+170,1.580880833,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+171,1.580889033,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+172,1.594580428,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+173,1.600760471,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+174,1.600768971,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+175,1.603979893,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+176,1.608634525,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+177,1.622794323,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+178,1.622803123,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+179,1.625063439,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+180,1.631311582,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+181,1.635541211,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+182,1.640413645,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+183,1.886614346,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+184,1.886621846,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+185,1.886628846,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+186,1.886635846,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+187,1.886759147,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+188,1.886766148,2,4,1,2502,"Application Data, Application Data, Application Data, Application Data",Google,7.825245291431774
+189,1.887790854,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+190,1.887797955,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+191,1.887805054,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+192,1.887811955,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+193,1.887886655,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+194,1.887894055,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+195,1.887901355,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+196,1.887908555,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+197,1.887956555,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+198,1.887963955,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+199,1.887971156,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+200,1.887978856,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+201,1.888040956,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+202,1.888048256,2,4,1,2502,"Application Data, Application Data, Application Data",Google,7.825245291431774
+203,1.888055456,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+204,1.888062856,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+205,1.888117456,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+206,1.888124856,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+207,1.888131456,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+208,1.888138756,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+209,1.888285358,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+210,1.888292858,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+211,1.888299458,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+212,1.891230678,2,4,1,1294,Application Data,Google,7.166265974133638
+213,1.940334719,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+214,1.940340919,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+215,1.94034672,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+216,1.942556235,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+217,1.946282061,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+218,1.953059908,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+219,1.956415631,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+220,1.960310458,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+221,1.975659763,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+222,1.975667964,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+223,1.975675564,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+224,1.99390089,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+225,1.99390799,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+226,1.99391479,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+227,1.99392209,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+228,1.99828402,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+229,1.999041425,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+230,2.003645557,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+231,2.006038374,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+232,2.018041457,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+233,2.268197786,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+234,2.268205386,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+235,2.268212387,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+236,2.268219486,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+237,2.268284787,2,4,1,2502,"Application Data, Application Data, Application Data",Google,7.825245291431774
+238,2.268291987,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+239,2.268299087,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+240,2.268306387,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+241,2.268377387,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+242,2.268413388,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+243,2.26861609,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+244,2.268630689,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+245,2.26863789,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+246,2.26864519,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+247,2.26870559,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+248,2.26871289,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+249,2.26872029,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+250,2.26872759,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+251,2.26878899,2,4,1,2502,"Application Data, Application Data, Application Data",Google,7.825245291431774
+252,2.26879629,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+253,2.268803391,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+254,2.268810791,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+255,2.268853591,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+256,2.268860291,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+257,2.268866791,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+258,2.268872991,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+259,2.268931692,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+260,2.268960592,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+261,2.269615396,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+262,2.269622996,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+263,2.269630296,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+264,2.269637696,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+265,2.269709597,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+266,2.269744997,2,4,1,1294,Application Data,Google,7.166265974133638
+267,2.319886944,2,4,1,1294,Application Data,Google,7.166265974133638
+268,2.322372962,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+269,2.323115167,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+270,2.332768334,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+271,2.334925848,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+272,2.343675009,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+273,2.348998445,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+274,2.350389055,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+275,2.35834631,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+276,2.360626527,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+277,2.38287438,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+278,2.38288338,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+279,2.38289348,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+280,2.38290348,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+281,2.391663441,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+282,2.391671041,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+283,2.392864549,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+284,2.39301775,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=664401 Win=4630 Len=0 TSval=3137810031 TSecr=1347954988,Google,4.465908118654584
+285,2.394625261,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+286,2.394840963,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=666817 Win=4630 Len=0 TSval=3137810033 TSecr=1347955002,Google,4.465908118654584
+287,2.477470434,4,3,0,86,45238  >  443 [ACK] Seq=1 Ack=1 Win=249 Len=0 TSval=613137806 TSecr=902639166,Google,4.465908118654584
+288,2.642746877,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+289,2.642754277,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+290,2.642761077,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+291,2.642768177,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+292,2.642836277,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+293,2.642843178,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+294,2.642850478,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+295,2.642857577,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+296,2.642925678,2,4,1,2502,"Application Data, Application Data, Application Data",Google,7.825245291431774
+297,2.642932878,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+298,2.642939878,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+299,2.642947078,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+300,2.642994578,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+301,2.643001778,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+302,2.643008879,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+303,2.643016478,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+304,2.643076879,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+305,2.643084279,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+306,2.643091479,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+307,2.643098679,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+308,2.643145979,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+309,2.643153079,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+310,2.64316038,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+311,2.643167579,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+312,2.64322768,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+313,2.64323468,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+314,2.64324178,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+315,2.64324898,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+316,2.643311581,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+317,2.643318881,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+318,2.643326081,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+319,2.662790316,2,4,1,1294,Application Data,Google,7.166265974133638
+320,2.662987017,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=742921 Win=4078 Len=0 TSval=3137810301 TSecr=1347955007,Google,4.465908118654584
+321,2.711710055,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+322,2.711718555,3,4,0,86,[TCP ACKed unseen segment] 443  >  45238 [ACK] Seq=1 Ack=2 Win=297 Len=0 TSval=902684726 TSecr=613001374,Google,4.465908118654584
+323,2.711818856,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=745337 Win=4621 Len=0 TSval=3137810350 TSecr=1347955316,Google,4.465908118654584
+324,2.723713938,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+325,2.723721738,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+326,2.723729038,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+327,2.723822039,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=747753 Win=4621 Len=0 TSval=3137810362 TSecr=1347955319,Google,4.465908118654584
+328,2.724421143,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=752585 Win=4630 Len=0 TSval=3137810363 TSecr=1347955323,Google,4.465908118654584
+329,2.728743872,2,4,1,2502,"Application Data, Application Data, Application Data",Google,7.825245291431774
+330,2.730551485,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=755001 Win=4630 Len=0 TSval=3137810369 TSecr=1347955332,Google,4.465908118654584
+331,2.735397518,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+332,2.735668821,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=757417 Win=4630 Len=0 TSval=3137810374 TSecr=1347955337,Google,4.465908118654584
+333,2.736742328,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+334,2.738034737,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=759833 Win=4630 Len=0 TSval=3137810376 TSecr=1347955341,Google,4.465908118654584
+335,2.749004313,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+336,2.749581516,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=762249 Win=4630 Len=0 TSval=3137810388 TSecr=1347955346,Google,4.465908118654584
+337,2.754270049,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+338,2.754276349,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+339,2.75445195,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=767081 Win=4630 Len=0 TSval=3137810393 TSecr=1347955351,Google,4.465908118654584
+340,2.759504985,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+341,2.759512785,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+342,2.759722787,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=771913 Win=4630 Len=0 TSval=3137810398 TSecr=1347955360,Google,4.465908118654584
+343,3.025727626,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+344,3.025735126,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+345,3.025742426,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+346,3.025749126,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+347,3.025822727,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+348,3.025829227,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+349,3.025835627,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+350,3.025842027,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+351,3.025907227,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+352,3.025913627,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+353,3.025920127,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+354,3.025926527,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+355,3.025973828,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+356,3.025980828,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+357,3.025987928,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+358,3.025995128,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+359,3.026056628,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+360,3.026063628,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+361,3.026070528,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+362,3.026077629,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+363,3.026124529,2,4,1,2502,"Application Data, Application Data, Application Data, Application Data, Application Data",Google,7.825245291431774
+364,3.026131929,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+365,3.026138929,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+366,3.026146229,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+367,3.026205929,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+368,3.026213129,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+369,3.026220129,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+370,3.026227429,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+371,3.02628713,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+372,3.02629423,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+373,3.02630183,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+374,3.037391107,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=846809 Win=4087 Len=0 TSval=3137810676 TSecr=1347955369,Google,4.465908118654584
+375,3.040829031,2,4,1,1294,Application Data,Google,7.166265974133638
+376,3.081571813,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=848017 Win=4630 Len=0 TSval=3137810720 TSecr=1347955617,Google,4.465908118654584
+377,3.085250338,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+378,3.085258038,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+379,3.085360138,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=852849 Win=4630 Len=0 TSval=3137810724 TSecr=1347955680,Google,4.465908118654584
+380,3.095279907,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+381,3.095287507,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+382,3.095294407,2,4,1,2502,"Application Data, Application Data, Application Data",Google,7.825245291431774
+383,3.095301607,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+384,3.096228414,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=862513 Win=4630 Len=0 TSval=3137810735 TSecr=1347955687,Google,4.465908118654584
+385,3.103425264,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+386,3.10428787,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=864929 Win=4630 Len=0 TSval=3137810743 TSecr=1347955705,Google,4.465908118654584
+387,3.107688093,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+388,3.112315225,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=867345 Win=4630 Len=0 TSval=3137810751 TSecr=1347955710,Google,4.465908118654584
+389,3.113710535,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+390,3.113746635,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+391,3.114798343,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=872177 Win=4630 Len=0 TSval=3137810753 TSecr=1347955714,Google,4.465908118654584
+392,3.12032728,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+393,3.123541303,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+394,3.161192163,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=877009 Win=4603 Len=0 TSval=3137810800 TSecr=1347955724,Google,4.465908118654584
+395,3.391695156,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+396,3.391701156,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+397,3.391706856,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+398,3.391712456,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+399,3.391788257,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+400,3.391794157,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+401,3.391813357,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+402,3.391819057,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+403,3.391848957,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+404,3.391854557,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+405,3.391862157,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+406,3.391867857,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+407,3.391882657,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+408,3.391894958,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+409,3.391901157,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+410,3.391917457,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+411,3.391942858,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+412,3.391948658,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+413,3.391954358,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+414,3.391960058,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+415,3.391971858,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+416,3.391977658,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+417,3.391983358,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+418,3.391988959,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+419,3.392012458,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+420,3.392018258,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+421,3.392024158,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+422,3.392029859,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+423,3.392052859,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+424,3.396176787,2,4,1,1294,Application Data,Google,7.166265974133638
+425,3.40088062,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=948281 Win=4113 Len=0 TSval=3137811039 TSecr=1347955733,Google,4.465908118654584
+426,3.430691127,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+427,3.430728427,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=950697 Win=4621 Len=0 TSval=3137811069 TSecr=1347956036,Google,4.465908118654584
+428,3.435700061,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+429,3.435731162,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=953113 Win=4621 Len=0 TSval=3137811074 TSecr=1347956043,Google,4.465908118654584
+430,3.438577382,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+431,3.438606482,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=955529 Win=4621 Len=0 TSval=3137811077 TSecr=1347956045,Google,4.465908118654584
+432,3.446709438,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+433,3.450687166,2,4,1,2502,"Application Data, Application Data, Application Data",Google,7.825245291431774
+434,3.45271978,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=960361 Win=4630 Len=0 TSval=3137811091 TSecr=1347956049,Google,4.465908118654584
+435,3.453306683,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+436,3.457833215,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=962777 Win=4630 Len=0 TSval=3137811096 TSecr=1347956059,Google,4.465908118654584
+437,3.459388525,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+438,3.46157544,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+439,3.463805655,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=967609 Win=4630 Len=0 TSval=3137811102 TSecr=1347956063,Google,4.465908118654584
+440,3.466562975,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+441,3.46726838,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=970025 Win=4630 Len=0 TSval=3137811106 TSecr=1347956072,Google,4.465908118654584
+442,3.470463102,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+443,3.474919733,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=972441 Win=4630 Len=0 TSval=3137811113 TSecr=1347956077,Google,4.465908118654584
+444,3.79829067,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+445,3.79829847,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+446,3.79830587,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+447,3.79831337,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+448,3.798417171,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+449,3.798424771,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+450,3.798432071,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+451,3.798439571,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+452,3.798523171,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+453,3.798531071,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+454,3.798538771,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+455,3.798546272,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+456,3.798598272,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+457,3.798605972,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+458,3.798613472,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+459,3.798620872,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+460,3.798690872,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+461,3.798698472,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+462,3.798705872,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+463,3.798713372,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+464,3.798765573,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+465,3.798772973,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+466,3.798780673,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+467,3.798789474,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+468,3.798901974,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+469,3.798909674,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+470,3.798917574,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+471,3.798925274,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+472,3.798991274,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+473,3.798998175,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+474,3.799005975,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+475,3.816738795,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=1047337 Win=4087 Len=0 TSval=3137811455 TSecr=1347956082,Google,4.465908118654584
+476,3.83039509,2,4,1,1294,Application Data,Google,7.166265974133638
+477,3.861072304,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+478,3.861080404,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+479,3.861099004,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+480,3.861274505,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=1050961 Win=4621 Len=0 TSval=3137811500 TSecr=1347956361,Google,4.465908118654584
+481,3.861522706,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=1055793 Win=4630 Len=0 TSval=3137811500 TSecr=1347956462,Google,4.465908118654584
+482,3.866804443,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+483,3.869083059,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=1058209 Win=4630 Len=0 TSval=3137811507 TSecr=1347956469,Google,4.465908118654584
+484,3.873668191,2,4,1,2502,"Application Data, Application Data, Application Data",Google,7.825245291431774
+485,3.873675791,2,4,1,1294,Application Data,Google,7.166265974133638
+486,3.873809192,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=1061833 Win=4630 Len=0 TSval=3137811512 TSecr=1347956473,Google,4.465908118654584
+487,3.879081329,2,4,1,1294,Application Data,Google,7.166265974133638
+488,3.879109429,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+489,3.879116529,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+490,3.879364431,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=1067873 Win=4630 Len=0 TSval=3137811518 TSecr=1347956477,Google,4.465908118654584
+491,3.882355051,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+492,3.883138356,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=1070289 Win=4630 Len=0 TSval=3137811522 TSecr=1347956488,Google,4.465908118654584
+493,3.893038225,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+494,3.893044825,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+495,3.893050725,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+496,3.896033246,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=1077537 Win=4630 Len=0 TSval=3137811534 TSecr=1347956491,Google,4.465908118654584
+497,3.91114935,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+498,3.91115765,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+499,3.911164551,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+500,3.91117175,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+501,3.914057971,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=1087201 Win=4630 Len=0 TSval=3137811552 TSecr=1347956502,Google,4.465908118654584
+502,3.921358321,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+503,3.921366621,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+504,3.921374521,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+505,3.921846325,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=1094449 Win=4630 Len=0 TSval=3137811560 TSecr=1347956517,Google,4.465908118654584
+506,3.92565105,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+507,3.927676365,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=1096865 Win=4630 Len=0 TSval=3137811566 TSecr=1347956528,Google,4.465908118654584
+508,4.231279564,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+509,4.231286664,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+510,4.231293964,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+511,4.231300965,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+512,4.231386165,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+513,4.231393965,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+514,4.231401065,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+515,4.231407965,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+516,4.231490766,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+517,4.231497666,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+518,4.231505166,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+519,4.231512566,2,4,1,2502,"Application Data, Application Data, Application Data",Google,7.825245291431774
+520,4.234807588,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=1125857 Win=4425 Len=0 TSval=3137811873 TSecr=1347956532,Google,4.465908118654584
+521,4.231563466,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+522,4.231570867,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+523,4.248969487,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+524,4.248976487,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+525,4.249100788,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+526,4.249106388,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+527,4.249111988,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+528,4.249150388,0,0,0,1514,52746  >  443 [ACK] Seq=1 Ack=1 Win=255 Len=1460 [TCP PDU reassembled in 529],Google,7.323170717943469
+529,4.249155988,0,0,1,2968,Application Data,Google,7.995980474763759
+530,4.249209488,0,0,0,1514,52746  >  443 [ACK] Seq=4375 Ack=1 Win=255 Len=1460 [TCP PDU reassembled in 531],Google,7.323170717943469
+531,4.249215089,0,0,1,1289,Application Data,Google,7.162397497355718
+532,4.249220589,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+533,4.249226089,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+534,4.249231689,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+535,4.249269489,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+536,4.249275089,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+537,4.249280589,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+538,4.249286089,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+539,4.249352889,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+540,4.24935839,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+541,4.24936389,2,4,1,1294,Application Data,Google,7.166265974133638
+542,4.250740799,2,4,1,1294,Application Data,Google,7.166265974133638
+543,4.250749299,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+544,4.250757199,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+545,4.250765199,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+546,4.250773699,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+547,4.2509375,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+548,4.2509459,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+549,4.2509541,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+550,4.250962801,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+551,4.251046301,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+552,4.251053901,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+553,4.251062002,2,4,1,1294,Application Data,Google,7.166265974133638
+554,4.266370908,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+555,4.266380808,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+556,4.290648675,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=1197129 Win=4060 Len=0 TSval=3137811929 TSecr=1347956573,Google,4.465908118654584
+557,4.297081119,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+558,4.29708942,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+559,4.29709692,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+560,4.297338721,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=1199545 Win=4621 Len=0 TSval=3137811936 TSecr=1347956897,Google,4.465908118654584
+561,4.301033247,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+562,4.313509533,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=1206793 Win=4630 Len=0 TSval=3137811952 TSecr=1347956898,Google,4.465908118654584
+563,4.315378446,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+564,4.315386146,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+565,4.315392946,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+566,4.315400246,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+567,4.315498447,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+568,4.315701948,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=1218873 Win=4630 Len=0 TSval=3137811954 TSecr=1347956907,Google,4.465908118654584
+569,4.316219652,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+570,4.316352553,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=1221289 Win=4630 Len=0 TSval=3137811955 TSecr=1347956922,Google,4.465908118654584
+571,4.322782697,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+572,4.322791697,2,4,1,2502,"Application Data, Application Data, Application Data",Google,7.825245291431774
+573,4.325494616,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+574,4.331493357,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+575,4.331501758,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+576,4.336842995,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+577,4.336851795,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+578,4.338298205,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=1238201 Win=4630 Len=0 TSval=3137811977 TSecr=1347956925,Google,4.465908118654584
+579,4.338768508,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+580,4.33906031,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=1240617 Win=4630 Len=0 TSval=3137811977 TSecr=1347956946,Google,4.465908118654584
+581,4.647816051,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+582,4.647824752,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+583,4.647832052,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+584,4.647839752,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+585,4.648026353,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+586,4.648046753,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+587,4.648054654,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+588,4.648062354,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+589,4.648200254,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+590,4.648208155,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+591,4.648215954,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+592,4.648223755,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+593,4.648279555,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+594,4.648288855,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+595,4.648297755,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+596,4.648306555,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+597,4.648378155,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+598,4.648386056,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+599,4.648394156,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+600,4.648401956,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+601,4.648457856,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+602,4.648465656,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+603,4.648473556,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+604,4.648481156,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+605,4.648554457,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+606,4.648562057,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+607,4.648569857,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+608,4.648577757,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+609,4.648632257,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+610,4.648639957,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+611,4.648647757,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+612,4.648655557,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+613,4.648814659,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+614,4.648822259,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+615,4.648829659,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+616,4.648837259,2,4,1,2502,"Application Data, Application Data, Application Data",Google,7.825245291431774
+617,4.648903359,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+618,4.648911659,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+619,4.64892176,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+620,4.648929559,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+621,4.64910026,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+622,4.64910786,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+623,4.64911996,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+624,4.649165461,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+625,4.649225661,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+626,4.649233561,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+627,4.649241462,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+628,4.649249061,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+629,4.649329862,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+630,4.694164368,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=1359001 Win=3766 Len=0 TSval=3137812333 TSecr=1347956949,Google,4.465908118654584
+631,4.702365223,2,4,1,1294,Application Data,Google,7.166265974133638
+632,4.745212919,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=1360209 Win=4630 Len=0 TSval=3137812384 TSecr=1347957257,Google,4.465908118654584
+633,4.755736492,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+634,4.755744592,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+635,4.755752892,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+636,4.755760392,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+637,4.755883493,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+638,4.755891492,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+639,4.755899093,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+640,4.756100694,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=1377121 Win=4630 Len=0 TSval=3137812394 TSecr=1347957341,Google,4.465908118654584
+641,4.757655005,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+642,4.757664005,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+643,4.757672605,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+644,4.757905307,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=1384369 Win=4630 Len=0 TSval=3137812396 TSecr=1347957356,Google,4.465908118654584
+645,4.758092208,2,4,1,1294,Application Data,Google,7.166265974133638
+646,4.761606832,2,4,1,1294,Application Data,Google,7.166265974133638
+647,4.761614932,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+648,4.761622632,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+649,4.761687333,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=1386785 Win=4630 Len=0 TSval=3137812400 TSecr=1347957363,Google,4.465908118654584
+650,4.771596402,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=1391617 Win=4630 Len=0 TSval=3137812410 TSecr=1347957365,Google,4.465908118654584
+651,4.779331755,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+652,4.779340555,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+653,4.779368355,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+654,4.779377155,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+655,4.779507056,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+656,4.779514656,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+657,4.780176961,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=1406113 Win=4630 Len=0 TSval=3137812419 TSecr=1347957370,Google,4.465908118654584
+658,4.781836772,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+659,4.781845072,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+660,4.782700078,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+661,4.785406397,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+662,4.785473797,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=1415777 Win=4630 Len=0 TSval=3137812424 TSecr=1347957384,Google,4.465908118654584
+663,4.789841128,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+664,4.789848927,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+665,4.792080343,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=1420609 Win=4630 Len=0 TSval=3137812430 TSecr=1347957393,Google,4.465908118654584
+666,4.792310444,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+667,4.792424145,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=1423025 Win=4630 Len=0 TSval=3137812431 TSecr=1347957398,Google,4.465908118654584
+668,4.799478695,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+669,4.799488695,2,4,1,2502,"Application Data, Application Data, Application Data",Google,7.825245291431774
+670,4.799497895,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+671,4.800844704,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=1430273 Win=4630 Len=0 TSval=3137812439 TSecr=1347957400,Google,4.465908118654584
+672,4.801077506,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+673,4.801295607,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=1432689 Win=4630 Len=0 TSval=3137812440 TSecr=1347957407,Google,4.465908118654584
+674,5.070894172,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+675,5.070901672,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+676,5.070908572,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+677,5.070915272,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+678,5.071017773,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+679,5.071025173,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+680,5.071032073,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+681,5.071038973,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+682,5.071152174,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+683,5.071162074,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+684,5.071171474,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+685,5.071178674,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+686,5.071231274,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+687,5.071238574,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+688,5.071245974,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+689,5.071253174,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+690,5.071339875,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+691,5.071347275,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+692,5.071354575,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+693,5.071361975,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+694,5.071410375,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+695,5.071417275,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+696,5.071424075,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+697,5.071430776,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+698,5.071499176,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+699,5.071506376,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+700,5.071512976,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+701,5.071519576,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+702,5.071565776,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+703,5.071572276,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+704,5.071578976,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+705,5.071585576,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+706,5.071671777,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+707,5.071678477,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+708,5.071685077,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+709,5.071693277,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+710,5.071740078,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+711,5.071747178,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+712,5.071755678,2,4,1,2502,"Application Data, Application Data, Application Data",Google,7.825245291431774
+713,5.071763178,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+714,5.071836778,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+715,5.071843478,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+716,5.071849978,2,4,1,2502,"Application Data, Application Data, Application Data",Google,7.825245291431774
+717,5.071856979,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+718,5.071908679,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+719,5.071915879,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+720,5.071923879,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+721,5.071931079,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+722,5.071994879,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+723,5.072003079,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+724,5.072010379,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+725,5.07201768,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+726,5.11435757,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=1558321 Win=3713 Len=0 TSval=3137812753 TSecr=1347957409,Google,4.465908118654584
+727,5.127896964,2,4,1,1294,Application Data,Google,7.166265974133638
+728,5.158441977,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+729,5.158450777,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+730,5.158524177,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=1561945 Win=4668 Len=0 TSval=3137812797 TSecr=1347957657,Google,4.465908118654584
+731,5.15884188,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=1564361 Win=4705 Len=0 TSval=3137812797 TSecr=1347957760,Google,4.465908118654584
+732,5.160025888,2,4,1,2416,"Application Data, Application Data, Application Data",Google,7.7902823807034824
+733,5.160059188,4,2,0,86,44426  >  443 [ACK] Seq=17104 Ack=1566691 Win=4742 Len=0 TSval=3137812798 TSecr=1347957763,Google,4.465908118654584
+734,5.164814221,4,2,1,125,Application Data,Google,4.836281906951478
+735,5.165308324,4,2,1,156,"Application Data, Application Data",Google,5.056245805348308
+736,5.209670931,2,4,0,86,443  >  44426 [ACK] Seq=1566691 Ack=17213 Win=934 Len=0 TSval=1347957816 TSecr=3137812803,Google,4.465908118654584
+737,5.909527972,4,1,0,94,58048  >  443 [SYN] Seq=0 Win=33120 Len=0 MSS=1440 SACK_PERM TSval=2806360664 TSecr=0 WS=128,Google,4.553876891600541
+738,5.911788888,4,1,0,94,58056  >  443 [SYN] Seq=0 Win=33120 Len=0 MSS=1440 SACK_PERM TSval=2806360666 TSecr=0 WS=128,Google,4.553876891600541
+739,5.912349792,4,2,0,1374,44426  >  443 [ACK] Seq=17213 Ack=1566691 Win=4742 Len=1288 TSval=3137813551 TSecr=1347957816 [TCP PDU reassembled in 741],Google,7.226209010100671
+740,5.912361891,4,2,0,1374,"44426  >  443 [PSH, ACK] Seq=18501 Ack=1566691 Win=4742 Len=1288 TSval=3137813551 TSecr=1347957816 [TCP PDU reassembled in 741]",Google,7.226209010100671
+741,5.912622594,4,2,1,822,Application Data,Google,6.71295620067707
+742,5.965465758,1,4,0,94,"443  >  58048 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1300 SACK_PERM TSval=2076215012 TSecr=2806360664 WS=8192",Google,4.553876891600541
+743,5.965474259,1,4,0,94,"443  >  58056 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1300 SACK_PERM TSval=185147784 TSecr=2806360666 WS=8192",Google,4.553876891600541
+744,5.965482659,2,4,0,86,443  >  44426 [ACK] Seq=1566691 Ack=19789 Win=924 Len=0 TSval=1347958556 TSecr=3137813551,Google,4.465908118654584
+745,5.96559646,4,1,0,86,58048  >  443 [ACK] Seq=1 Ack=1 Win=33152 Len=0 TSval=2806360720 TSecr=2076215012,Google,4.465908118654584
+746,5.965788461,4,1,0,86,58056  >  443 [ACK] Seq=1 Ack=1 Win=33152 Len=0 TSval=2806360720 TSecr=185147784,Google,4.465908118654584
+747,5.97584733,2,4,0,86,443  >  44426 [ACK] Seq=1566691 Ack=20525 Win=922 Len=0 TSval=1347958570 TSecr=3137813551,Google,4.465908118654584
+748,5.979420255,4,1,0,1374,58048  >  443 [ACK] Seq=1 Ack=1 Win=33152 Len=1288 TSval=2806360734 TSecr=2076215012 [TCP PDU reassembled in 749],Google,7.226209010100671
+749,5.979439255,4,1,2,526,Client Hello (SNI=cloudflare-ech.com),Google,6.267200548541362
+750,5.980725964,4,1,0,1374,58056  >  443 [ACK] Seq=1 Ack=1 Win=33152 Len=1288 TSval=2806360735 TSecr=185147784 [TCP PDU reassembled in 751],Google,7.226209010100671
+751,5.980740864,4,1,2,526,Client Hello (SNI=cloudflare-ech.com),Google,6.267200548541362
+752,6.306564617,4,1,0,526,"[TCP Retransmission] 58056  >  443 [PSH, ACK] Seq=1289 Ack=1 Win=33152 Len=440 TSval=2806361061 TSecr=185147784 [TCP PDU reassembled in 751]",Google,6.267200548541362
+753,6.306808419,4,1,0,526,"[TCP Retransmission] 58048  >  443 [PSH, ACK] Seq=1289 Ack=1 Win=33152 Len=440 TSval=2806361061 TSecr=2076215012 [TCP PDU reassembled in 749]",Google,6.267200548541362
+754,6.307951727,1,4,0,86,443  >  58048 [ACK] Seq=1 Ack=1729 Win=73728 Len=0 TSval=2076215077 TSecr=2806360734,Google,4.465908118654584
+755,6.308076328,1,4,0,86,443  >  58056 [ACK] Seq=1 Ack=1729 Win=73728 Len=0 TSval=185147849 TSecr=2806360735,Google,4.465908118654584
+756,6.308086427,1,4,2,3497,"Server Hello, Change Cipher Spec, Application Data",Google,8.159946655578548
+757,6.308093728,1,4,2,3497,"Server Hello, Change Cipher Spec, Application Data",Google,8.159946655578548
+758,6.308296829,4,1,0,86,58048  >  443 [ACK] Seq=1729 Ack=3412 Win=31872 Len=0 TSval=2806361063 TSecr=2076215081,Google,4.465908118654584
+759,6.308517331,4,1,0,86,58056  >  443 [ACK] Seq=1729 Ack=3412 Win=31872 Len=0 TSval=2806361063 TSecr=185147854,Google,4.465908118654584
+760,6.308614531,2,4,1,1294,Application Data,Google,7.166265974133638
+761,6.308621831,2,4,1,1294,Application Data,Google,7.166265974133638
+762,6.308629132,2,4,1,725,Application Data,Google,6.587550014824796
+763,6.308636632,2,4,1,1294,Application Data,Google,7.166265974133638
+764,6.308644331,2,4,1,1294,Application Data,Google,7.166265974133638
+765,6.308651632,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+766,6.308659231,2,4,1,2502,"Application Data, Application Data",Google,7.825245291431774
+767,6.308698632,4,2,0,86,44426  >  443 [ACK] Seq=20525 Ack=1569107 Win=4779 Len=0 TSval=3137813947 TSecr=1347958749,Google,4.465908118654584
+768,6.308763932,4,2,0,86,44426  >  443 [ACK] Seq=20525 Ack=1570954 Win=4817 Len=0 TSval=3137813947 TSecr=1347958751,Google,4.465908118654584
+769,6.308821632,4,2,0,86,44426  >  443 [ACK] Seq=20525 Ack=1574578 Win=4874 Len=0 TSval=3137813947 TSecr=1347958757,Google,4.465908118654584
+770,6.308866233,4,2,0,86,44426  >  443 [ACK] Seq=20525 Ack=1576994 Win=4912 Len=0 TSval=3137813947 TSecr=1347958762,Google,4.465908118654584
+131,0.877727033,15,9,0,86,58908  >  443 [ACK] Seq=1 Ack=1 Win=33152 Len=0 TSval=1470887583 TSecr=4196553361,Spotify,4.465908118654584
+21,0.118509974,8,17,0,86,443  >  40398 [ACK] Seq=1 Ack=75 Win=1046 Len=0 TSval=2245068474 TSecr=1470886758,Spotify,4.465908118654584
+189,1.096721564,8,17,2,298,"Server Hello, Change Cipher Spec, Application Data",Spotify,5.700443573390686
+150,0.946364082,15,14,0,86,33252  >  443 [ACK] Seq=1 Ack=1 Win=33152 Len=0 TSval=3071835709 TSecr=622164752,Spotify,4.465908118654584
+51,0.290480997,14,17,0,86,443  >  54754 [ACK] Seq=7378 Ack=36 Win=307 Len=0 TSval=2027886521 TSecr=2876165567,Spotify,4.465908118654584
+188,1.087127701,15,2,0,86,44312  >  443 [ACK] Seq=2179 Ack=552 Win=32640 Len=0 TSval=1694081452 TSecr=3471396771,Spotify,4.465908118654584
+103,0.792820079,8,17,0,94,"443  >  58894 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1300 SACK_PERM TSval=3994262119 TSecr=1470887465 WS=256",Spotify,4.553876891600541
+271,1.879720379,11,17,1,1255,Application Data,Spotify,7.135687347028144
+59,0.419593741,15,8,1,125,Application Data,Spotify,4.836281906951478
+258,1.879273476,15,13,0,86,59356  >  443 [ACK] Seq=283 Ack=10097 Win=702 Len=0 TSval=1338542956 TSecr=536397519,Spotify,4.465908118654584
+192,1.139400743,12,17,0,86,443  >  33252 [ACK] Seq=460 Ack=2044 Win=147968 Len=0 TSval=622164951 TSecr=3071835808,Spotify,4.465908118654584
+215,1.706138945,15,9,0,86,40398  >  443 [ACK] Seq=338 Ack=821 Win=249 Len=0 TSval=1470888412 TSecr=2245070070,Spotify,4.465908118654584
+294,1.895613983,15,9,1,125,Application Data,Spotify,4.836281906951478
+131,0.877727033,15,9,0,86,58908  >  443 [ACK] Seq=1 Ack=1 Win=33152 Len=0 TSval=1470887583 TSecr=4196553361,Spotify,4.465908118654584
+161,0.982596118,8,17,2,298,"Server Hello, Change Cipher Spec, Application Data",Spotify,5.700443573390686
+88,0.649837745,0,18,0,66,49708  >  443 [ACK] Seq=419 Ack=140 Win=249 Len=0 TSval=676285158 TSecr=3175469748,Spotify,4.204692619390966
+244,1.850271887,15,13,0,86,59356  >  443 [ACK] Seq=248 Ack=433 Win=551 Len=0 TSval=1338542927 TSecr=536397517,Spotify,4.465908118654584
+103,0.792820079,8,17,0,94,"443  >  58894 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1300 SACK_PERM TSval=3994262119 TSecr=1470887465 WS=256",Spotify,4.553876891600541
+170,1.004008258,15,9,2,914,Client Hello (SNI=exp.wg.spotify.com),Spotify,6.818924065275521
