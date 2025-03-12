@@ -116,6 +116,29 @@ print("Scenario 2 Accuracy:", accuracy_scenario_2)
 print("\nClassification Report for Scenario 1:\n", classification_report_scenario_1)
 print("\nClassification Report for Scenario 2:\n", classification_report_scenario_2)
 
+# Function to format actual vs predicted table
+def generate_actual_vs_predicted_table(actual, predicted, scenario):
+    actual_counts = actual.value_counts().sort_index()
+    predicted_counts = pd.Series(predicted).value_counts().sort_index()
+
+    table_data = {
+        "Application": actual_counts.index,
+        "Actual": [f"{(actual_counts[app] / len(actual)) * 100:.0f}%" if app in actual_counts else "0%"
+                   for app in actual_counts.index],
+        "Predicted": [f"{(predicted_counts[app] / len(predicted)) * 100:.0f}%" if app in predicted_counts else "0%"
+                      for app in actual_counts.index]
+    }
+
+    table_df = pd.DataFrame(table_data)
+    print(f"\nActual vs Predicted Table for Scenario {scenario}:\n")
+    print(table_df.to_string(index=False))
+
+
+# Display the actual vs predicted tables
+generate_actual_vs_predicted_table(y_test, y_pred_scenario_1, 1)
+generate_actual_vs_predicted_table(y_test, y_pred_scenario_2, 2)
+
+
 # Function to visualize actual vs predicted results
 def plot_results(actual, predicted, scenario, filename):
     app_order = sorted(actual.unique())  # Dynamically get unique app names
