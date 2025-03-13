@@ -8,7 +8,7 @@ files = {
     'Google Traffic': 'Google_traffic.csv',
     'Firefox Traffic': 'Firefox_traffic.csv',
     'Spotify Traffic': 'Spotify_traffic.csv',
-    'YouTube Traffic': 'YouTube_traffic.csv',
+    'YouTube Traffic': 'Youtube_traffic.csv',
     'Zoom Traffic': 'Zoom_traffic.csv'
 }
 
