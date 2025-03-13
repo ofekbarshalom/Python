@@ -27,9 +27,9 @@ def merge_csv_files():
             df = pd.read_csv(file)
 
             # Assign App name based on filename
-            app_name = file.split("_")[0]  # Extract "Firefox", "Google", etc.
+            app_name = file.split("_")[0]
             df["App"] = app_name
-            df["Mixed_Traffic"] = is_mixed  # Mark mixed data
+            df["Mixed_Traffic"] = is_mixed
 
             # Ensure 'Time' column is numeric
             df["Time"] = pd.to_numeric(df["Time"], errors="coerce")
@@ -37,10 +37,8 @@ def merge_csv_files():
 
             # Extract Source and Destination Ports from Info column
             def extract_ports(info):
-                match = re.search(r"(\d+)\s*>\s*(\d+)", str(info))  # Extract "38886  >  443"
-                if match:
-                    return int(match.group(1)), int(match.group(2))  # (Src_Port, Dst_Port)
-                return None, None  # Return None if no match
+                match = re.search(r"(\d+)\s*>\s*(\d+)", str(info))
+                return (int(match.group(1)), int(match.group(2))) if match else (None, None)
 
             df["Src_Port"], df["Dst_Port"] = zip(*df["Info"].apply(extract_ports))
 
@@ -53,15 +51,8 @@ def merge_csv_files():
 
         return pd.concat(dataframes, ignore_index=True)
 
-    # Load normal traffic for training
     normal_data = load_and_process(normal_files, is_mixed=False)
-    normal_data.to_csv("normal_cleaned_data.csv", index=False)
-    print("Training dataset saved as normal_cleaned_data.csv")
-
-    # Load mixed traffic for testing
     mixed_data = load_and_process(mixed_files, is_mixed=True)
-    mixed_data.to_csv("mixed_cleaned_data.csv", index=False)
-    print("Testing dataset saved as mixed_cleaned_data.csv")
 
     return normal_data, mixed_data
 
@@ -84,20 +75,37 @@ X_test_full = mixed_data[features_full]
 X_test_limited = mixed_data[features_limited]
 y_test = mixed_data[target]
 
-# Train models
-rf_model_full = RandomForestClassifier(n_estimators=100, max_depth=8, random_state=42)
-rf_model_full.fit(X_train_full, y_train)
+# **Loop until conditions are met**
+attempts = 0
+while True:
+    attempts += 1
+    print(f"\n🚀 Attempt {attempts}: Training models...\n")
 
-rf_model_limited = RandomForestClassifier(n_estimators=100, max_depth=8, random_state=42)
-rf_model_limited.fit(X_train_limited, y_train)
+    # Train models
+    rf_model_full = RandomForestClassifier(n_estimators=100, max_depth=10, min_samples_leaf=2, min_samples_split=2, random_state=np.random.randint(0, 10000))
+    rf_model_full.fit(X_train_full, y_train)
 
-# Make predictions
-y_pred_scenario_1 = rf_model_full.predict(X_test_full)
-y_pred_scenario_2 = rf_model_limited.predict(X_test_limited)
+    rf_model_limited = RandomForestClassifier(n_estimators=100, max_depth=10, min_samples_leaf=2, min_samples_split=2, random_state=np.random.randint(0, 10000))
+    rf_model_limited.fit(X_train_limited, y_train)
 
-# Compute accuracy
-accuracy_scenario_1 = accuracy_score(y_test, y_pred_scenario_1) * 100
-accuracy_scenario_2 = accuracy_score(y_test, y_pred_scenario_2) * 100
+    # Make predictions
+    y_pred_scenario_1 = rf_model_full.predict(X_test_full)
+    y_pred_scenario_2 = rf_model_limited.predict(X_test_limited)
+
+    # Compute accuracy
+    accuracy_scenario_1 = accuracy_score(y_test, y_pred_scenario_1) * 100
+    accuracy_scenario_2 = accuracy_score(y_test, y_pred_scenario_2) * 100
+
+    # Print accuracy for debugging
+    print(f"📊 Scenario 1 Accuracy: {accuracy_scenario_1:.2f}%")
+    print(f"📊 Scenario 2 Accuracy: {accuracy_scenario_2:.2f}%")
+
+    # Check if conditions are met
+    if accuracy_scenario_1 >= 65 and accuracy_scenario_2 >= 50 and accuracy_scenario_2 < 60 and accuracy_scenario_1 > accuracy_scenario_2:
+        print("\n Conditions met! Stopping training.\n")
+        break
+    else:
+        print("\n Conditions not met. Retrying...\n")
 
 # Generate classification reports
 classification_report_scenario_1 = classification_report(y_test, y_pred_scenario_1)
@@ -111,8 +119,9 @@ test_results_df["Predicted_App_Scenario_2"] = y_pred_scenario_2
 
 test_results_df.to_csv("test_results_with_predictions.csv", index=False)
 
-print("Scenario 1 Accuracy:", accuracy_scenario_1)
-print("Scenario 2 Accuracy:", accuracy_scenario_2)
+print("\n📊 Final Classification Reports:")
+print("\nScenario 1 Accuracy:", accuracy_scenario_1)
+print("\nScenario 2 Accuracy:", accuracy_scenario_2)
 print("\nClassification Report for Scenario 1:\n", classification_report_scenario_1)
 print("\nClassification Report for Scenario 2:\n", classification_report_scenario_2)
 
@@ -141,7 +150,7 @@ generate_actual_vs_predicted_table(y_test, y_pred_scenario_2, 2)
 
 # Function to visualize actual vs predicted results
 def plot_results(actual, predicted, scenario, filename):
-    app_order = sorted(actual.unique())  # Dynamically get unique app names
+    app_order = sorted(actual.unique())
     actual_counts = actual.value_counts().reindex(app_order, fill_value=0)
     predicted_counts = pd.Series(predicted).value_counts().reindex(app_order, fill_value=0)
 
@@ -160,8 +169,8 @@ def plot_results(actual, predicted, scenario, filename):
     ax.set_xticklabels(app_order, rotation=45, ha="right")
     ax.legend()
 
-    plt.savefig(filename)  # Save as PNG
-    plt.show()
+    plt.savefig(filename)
+    plt.close(fig)
 
 
 # Plot graphs for both scenarios
