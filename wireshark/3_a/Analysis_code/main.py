@@ -71,10 +71,6 @@ for app, df in data.items():
     # Rotate labels for better readability
     plt.xticks(rotation=45, ha='right')  # Rotate 45 degrees and align right
 
-    # Optional: Wrap long labels (uncomment if needed)
-    # labels = [re.sub(r"(.{15})", "\\1\n", label) for label in dest_ports.index]
-    # plt.xticks(ticks=range(len(labels)), labels=labels)
-
     plt.grid(True, linestyle='--', alpha=0.5)
     plt.tight_layout()
     plt.show()
