@@ -77,6 +77,8 @@ def score_file_change(old_entropy, new_entropy, old_size, new_size, file_path):
 
     if entropy_diff > 1.0:
         score += 2
+    elif entropy_diff > 0.5:
+        score += 1
     elif entropy_ratio > 0.2:
         score += 1
 
