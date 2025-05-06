@@ -1,3 +1,5 @@
+# Ransomware Detection Script - Cross-Platform (Linux/Windows)
+
 # ------------------------------------------------------------
 # This script uses entropy calculations based on Shannon's Information Theory:
 # Shannon, C. E. "A Mathematical Theory of Communication", Bell System Technical Journal, 1948.
@@ -6,24 +8,48 @@
 # It also uses ransomware detection indicators inspired by:
 # Nolen Scaife et al. "CryptoDrop: Stopping Ransomware Attacks on User Data", ICDCS 2016.
 # https://people.cs.vt.edu/~saverese/papers/scaife-icdcs16.pdf
-
+# ------------------------------------------------------------
 
 # ------------------------------------------------------------
 # System Efficiency Analysis Based on Three Key Criteria:
 #
-# A. **Memory Usage** – How much data is stored in memory?
-# - We store a mapping for each file, including entropy and size ⇒ O(n), where n is the number of files.
-# ⇒ Our memory usage is efficient: O(n), since we only store lightweight metadata per file.
+# A. Memory Usage – How much data is stored in memory?
+# - We store a mapping for each file, including entropy and size => O(n), where n is the number of files.
+# - Our memory usage is efficient: O(n), since we only store lightweight metadata per file.
 #
-# B. **Runtime Complexity** – How long does one scan or detection take?
+# B. Runtime Complexity – How long does one scan or detection take?
 # - Full initial scan: O(n), since we read all files and compute entropy.
-# - On file change: O(1) to detect event (via watchdog), O(log(n)) to look up data in the dictionary.
-# ⇒ Very efficient runtime due to event-driven architecture (not polling).
+# - On file change: O(1) to detect event (via watchdog/inotify), O(log(n)) to look up data in the dictionary.
+# - Very efficient runtime due to event-driven architecture (not polling).
 #
-# C. **I/O Complexity** – How many disk reads are performed?
-# - One read per file during initial scan ⇒ O(n).
+# C. I/O Complexity – How many disk reads are performed?
+# - One read per file during initial scan => O(n).
 # - Afterward: disk reads only on actual file events (not periodic scanning).
-# ⇒ No polling overhead – system responds only to real-time file events.
+# - No polling overhead – system responds only to real-time file events.
+# ------------------------------------------------------------
+
+# ------------------------------------------------------------
+# Requirements for running this script:
+#
+# Required Python Modules:
+#
+# - Windows: watchdog
+#     Install with: pip install watchdog
+#
+# - Linux: inotify_simple
+#     Install with: sudo pip install inotify_simple
+#
+# Running the Script:
+# - Windows: python Ransomware_Detection.py
+# - Linux: python3 Ransomware_Detection.py
+#
+# When prompted, enter the full absolute path to the folder you want to monitor.
+#
+# Example (Linux):
+#     /home/hacker/Downloads/test_files
+#
+# Example (Windows):
+#     C:\Users\YourUsername\Downloads\test_files
 # ------------------------------------------------------------
 
 import os
