@@ -27,7 +27,29 @@
 # - Afterward: disk reads only on actual file events (not periodic scanning).
 # - No polling overhead – system responds only to real-time file events.
 # ------------------------------------------------------------
-
+#
+# ------------------------------------------------------------
+# Code Overview and Scoring System:
+#
+# This script monitors a specified directory for suspicious file changes
+# that may indicate ransomware activity. It does this by calculating the
+# entropy and size of files over time and comparing them to their original state.
+#
+# Main detection logic is based on a scoring system:
+# - If a file's entropy increases significantly (e.g., > 1.0 or over 7.5 absolute), +7 points
+# - If the file size grows sharply (e.g., >60% or doubles), +2 points
+# - If the file has a suspicious extension (anything not .txt), +7 points
+# - If the file is small and entropy increases moderately (e.g., >0.5 and >6.5), +7 points
+#
+# If a file’s total score reaches 7 or higher, it is flagged as potentially malicious.
+# Alerts are printed to the terminal with details on entropy, size, and score.
+#
+# The script uses:
+# - inotify_simple (Linux) or watchdog (Windows) to detect file changes in real time
+# - Shannon entropy to detect randomness typical of encryption
+# - Metadata tracking per file for efficient, incremental monitoring
+# ------------------------------------------------------------
+#
 # ------------------------------------------------------------
 # Requirements for running this script:
 #
