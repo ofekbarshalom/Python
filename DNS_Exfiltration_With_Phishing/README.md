@@ -9,7 +9,7 @@ This tool simulates a phishing campaign with the following capabilities:
 - Sends custom phishing emails with adaptive templates.
 - Attaches a payload executable (`attachment.exe`) that:
   - Collects basic system information.
-  - Runs privilege escalation enumeration tools (`LinEnum` for Linux, `winPEAS` for Windows).
+  - Runs enumeration tools (`LinEnum` for Linux, `winPEAS` for Windows).
   - Exfiltrates the gathered data via DNS queries to a local DNS server (e.g., `bind9`).
 
 ## Components
