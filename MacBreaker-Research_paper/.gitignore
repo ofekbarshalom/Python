@@ -1,0 +1,28 @@
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Virtual Environment (Added)
+venv/
+ENV/
+env/
+
+# Local environment/Docker
+.env
+.dockerignore
+
+# Datasets and Large Files (Crucial for GitHub)
+*.zip
+*.tar.gz
+*.journal
+*.journal*
+data/samples/
+
+# Project temporary files
+temp_uploads/
+*.json
+
+# IDEs
+.vscode/
+.idea/
+
