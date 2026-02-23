@@ -1,2 +1,0 @@
-2025-01-18 14:54:51,514 - SystemLogger - ERROR - registered fail
-2025-01-18 14:54:51,529 - SystemLogger - ERROR - registered fail
