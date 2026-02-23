@@ -1,6 +1,6 @@
 # Python Projects Repository
 
-Welcome to my collection of **Python projects**! This repository showcases various projects I've developed to enhance my Python programming skills. Each project focuses on different concepts and functionalities, providing practical examples of how to use Python effectively.
+Welcome to my collection of Python projects. This repository contains networking, cybersecurity, automation, AI, and desktop-application projects built for learning and portfolio development.
 
 ## Table of Contents
 
@@ -14,42 +14,52 @@ Welcome to my collection of **Python projects**! This repository showcases vario
 
 ## About
 
-This repository serves as a portfolio of Python programming projects I have worked on. It covers a wide range of topics, from beginner-level projects to more advanced implementations, including automation, game development, and bot creation.
+This repository serves as a personal portfolio of Python work across different domains:
+
+- Application-layer networking and reliable communication
+- Traffic analysis and security-focused projects
+- Bots and automation scripts
+- AI/game projects
+- Object-oriented desktop applications
 
 ---
 
 ## Projects
 
-Here are some of the projects included in this repository:
+Current top-level projects:
 
-1. **Flappy_Bird_AI**: A neural network and reinforcement learning project to play Flappy Bird.
-2. **Piano_Tails_Bot**: An automation bot to play the game Piano Tiles.
-3. **Telegram_Bot**: A Python-based bot created using the `python-telegram-bot` library.
-4. **Line_Circle_Finder**: A project using OpenCV for detecting lines and circles in images.
-5. **Port_Scanner**: A simple network tool for scanning open ports.
+1. **CalcCache_Gateway** – Client/proxy/server calculator system with protocol handling and proxy caching.
+2. **Reliable_Relay** – Sliding-window style reliable message transfer with ACKs and timeout retransmission.
+3. **Network_Encrypted_Traffic_Analysis** – Final networking project with code, packet captures, and analysis outputs.
+4. **Library** – Tkinter-based OOP library management system with CSV persistence and tests.
+5. **Telegram_Bot** – Telegram chat bot built with `python-telegram-bot`.
+6. **Piano_Tails_Bot** – Automation bot for Piano Tiles using pixel detection and configurable screen coordinates.
+7. **Fluppy_Bird_AI** – AI-based Flappy Bird project.
+8. **DNS_Exfiltration_With_Phishing** – Networking/security simulation project.
+9. **Line_circle_collision_detector** – Geometry/computer-vision style utility for line/circle collision detection.
+10. **port_scanner** – Basic open-port scanning utility.
+11. **Ransomware_Detection** – Ransomware detection/research-oriented Python project.
 
 ---
 
 ## Getting Started
 
-To explore these projects, you can clone the repository to your local machine:
+To explore these projects locally:
 
 ```bash
 git clone https://github.com/ofekbarshalom/Python.git
 cd Python
 ```
 
-Navigate to the project directory of your choice and follow the setup instructions provided in the project's README file (if available).
+Then enter any project directory and follow the project-specific README instructions.
 
 ---
 
 ## Prerequisites
 
-To work with these projects, ensure you have the following:
-
-- **Python**: Version 3.6 or higher.
-- **Libraries**: Install required libraries listed in the `requirements.txt` file of individual projects (if applicable).
-- **IDE or Text Editor**: Tools like PyCharm, VS Code, or Jupyter Notebook to edit and run the code.
+- **Python**: 3.8+ recommended (some projects may require 3.10+).
+- **Dependencies**: install per-project requirements as documented in each folder.
+- **Environment**: Windows is supported for projects that rely on Windows-specific libraries.
 
 ---
 
