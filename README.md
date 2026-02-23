@@ -22,13 +22,11 @@ This repository serves as a portfolio of Python programming projects I have work
 
 Here are some of the projects included in this repository:
 
-1. **Clash_Of_Clans_Bot**: An automation bot for the popular game Clash of Clans.
-2. **Clash_Royal_Bot**: Another game automation bot with unique strategies.
-3. **Flappy_Bird_AI**: A neural network and reinforcement learning project to play Flappy Bird.
-4. **Piano_Tails_Bot**: An automation bot to play the game Piano Tiles.
-5. **Telegram_Bot**: A Python-based bot created using the `python-telegram-bot` library.
-6. **Line_Circle_Finder**: A project using OpenCV for detecting lines and circles in images.
-7. **Port_Scanner**: A simple network tool for scanning open ports.
+1. **Flappy_Bird_AI**: A neural network and reinforcement learning project to play Flappy Bird.
+2. **Piano_Tails_Bot**: An automation bot to play the game Piano Tiles.
+3. **Telegram_Bot**: A Python-based bot created using the `python-telegram-bot` library.
+4. **Line_Circle_Finder**: A project using OpenCV for detecting lines and circles in images.
+5. **Port_Scanner**: A simple network tool for scanning open ports.
 
 ---
 
