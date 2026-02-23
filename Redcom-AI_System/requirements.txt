@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+streamlit
+requests
+celery[redis]
+redis
+pandas
+numpy
+scikit-learn
+python-multipart
+xgboost

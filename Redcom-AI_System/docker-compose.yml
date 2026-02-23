@@ -1,0 +1,44 @@
+services:
+  redis:
+    image: "redis/redis-stack-server:latest"
+    ports:
+      - "6379:6379"
+
+  # FastAPI Inference Server
+  inference:
+    build:
+      context: .
+      dockerfile: Dockerfile.app
+    command: uvicorn src.api:app --host 0.0.0.0 --port 8000
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    depends_on:
+      - redis
+
+  # Background Worker
+  worker:
+    build:
+      context: .
+      dockerfile: Dockerfile.worker
+    command: celery -A src.tasks.celery_app worker --loglevel=info
+    volumes:
+      - .:/app
+    depends_on:
+      - redis
+
+  # Streamlit
+  streamlit:
+    build:
+      context: .
+      dockerfile: Dockerfile.app
+    command: streamlit run src/streamlit_app.py --server.port=8501 --server.address=0.0.0.0
+    ports:
+      - "8501:8501"
+    environment:
+      - INFERENCE_URL=http://inference:8000
+    volumes:
+      - .:/app
+    depends_on:
+      - inference
