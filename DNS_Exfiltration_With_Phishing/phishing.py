@@ -1,4 +1,4 @@
-# ofek bar-shalom (324161421) Yakir Litmanovitch (314830746)
+# ofek bar-shalom & Yakir Litmanovitch
 
 import re
 import requests

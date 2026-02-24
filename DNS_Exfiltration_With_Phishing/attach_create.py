@@ -1,4 +1,4 @@
-# Ofek Bar-Shalom (324161421), Yakir Litmanovitch (314830746)
+# Ofek Bar-Shalom & Yakir Litmanovitch
 
 import os
 import socket
