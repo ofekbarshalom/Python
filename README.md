@@ -36,9 +36,12 @@ Current top-level projects:
 6. **Piano_Tails_Bot** – Automation bot for Piano Tiles using pixel detection and configurable screen coordinates.
 7. **Fluppy_Bird_AI** – AI-based Flappy Bird project.
 8. **DNS_Exfiltration_With_Phishing** – Networking/security simulation project.
-9. **Line_circle_collision_detector** – Geometry/computer-vision style utility for line/circle collision detection.
-10. **port_scanner** – Basic open-port scanning utility.
-11. **Ransomware_Detection** – Ransomware detection/research-oriented Python project.
+9. **DoS-Traffic-Simulator** – DoS/DDoS traffic simulation toolkit with attack scripts and monitoring/graphing outputs.
+10. **Line_circle_collision_detector** – Geometry/computer-vision style utility for line/circle collision detection.
+11. **port_scanner** – Basic open-port scanning utility.
+12. **Ransomware_Detection** – Ransomware detection/research-oriented Python project.
+13. **MacBreaker-Research_paper** – Research project scaffold with Docker Compose, app/data pipeline layout, and tests.
+14. **Redcom-AI_System** – Containerized AI system with training, prediction, and worker/app components.
 
 ---
 
