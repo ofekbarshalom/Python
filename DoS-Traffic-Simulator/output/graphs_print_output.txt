@@ -1,0 +1,11 @@
+Ping_graphs output:
+
+RTT REPORT:
+[C]      Avg RTT: 4.38 ms | STD: 6.13 ms
+[Python] Avg RTT: 1.68 ms | STD: 2.43 ms
+
+SYN_graphs output:
+
+Short Report:
+[C]     Avg: 17.02 ms | STD: 36.68
+[Python] Avg: 46895.41 ms | STD: 22725.21
