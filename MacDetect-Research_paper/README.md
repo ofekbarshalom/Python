@@ -1,13 +1,13 @@
-# MacBreaker — Simple Overview
+# MacDetect — Simple Overview
 
 **Short description:**
-MacBreaker helps you quickly identify whether a macOS binary looks malicious. It provides a short, explainable verdict plus a small set of supporting signals so you can triage samples fast.
+MacDetect helps you quickly identify whether a macOS binary looks malicious. It provides a short, explainable verdict plus a small set of supporting signals so you can triage samples fast.
 
 ---
 
 ## Authors
 
-- Project: MacBreaker
+- Project: MacDetect
 - Maintainers / Contributors: Nadav Cohen, Ofek Bar Shalom
 
 ---

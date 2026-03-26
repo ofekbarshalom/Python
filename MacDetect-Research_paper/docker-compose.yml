@@ -2,7 +2,7 @@ services:
   # 1. Redis: No changes needed here
   redis:
     image: redis:7-alpine
-    container_name: cyber-redis
+    container_name: macdetect-redis
     ports:
       - "6379:6379"
     restart: always
@@ -11,7 +11,7 @@ services:
   web:
     # CHANGE 1: Build context must point to the 'app' folder where Dockerfile is
     build: ./app 
-    container_name: cyber-web
+    container_name: macdetect-web
     # CHANGE 2: Updated path to find main.py inside the 'api' subfolder
     command: uvicorn api.main:app --host 0.0.0.0 --port 8000
     ports:
@@ -26,7 +26,7 @@ services:
   worker:
     # CHANGE 1: Build context must point to the 'app' folder
     build: ./app
-    container_name: cyber-worker
+    container_name: macdetect-worker
     # CHANGE 3: Path updated to find worker.py inside the 'worker' subfolder
     command: rq worker --url redis://redis:6379 default
     working_dir: /app

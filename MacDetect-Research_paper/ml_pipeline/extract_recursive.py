@@ -8,7 +8,7 @@ import subprocess
 SCRIPT_DIR = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), os.pardir))
 
 
-# Assumes the folder structure: CyberProject/data/samples/malware
+# Assumes the folder structure: MacDetect/data/samples/malware
 MALWARE_DIR = os.path.join(SCRIPT_DIR, "data", "smapes", "malware")
 
 def extract_archives(root_folder):
