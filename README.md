@@ -42,6 +42,7 @@ Current top-level projects:
 12. **Ransomware_Detection** – Ransomware detection/research-oriented Python project.
 13. **MacBreaker-Research_paper** – Research project scaffold with Docker Compose, app/data pipeline layout, and tests.
 14. **Redcom-AI_System** – Containerized AI system with training, prediction, and worker/app components.
+15. **CyberAgent** – Adversarial agent-learning for cybersecurity: reproduces the SNAPT APT simulation and compares A2C vs CEM attackers and defenders, with topology extension experiments.
 
 ---
 
