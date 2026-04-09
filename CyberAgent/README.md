@@ -1,4 +1,4 @@
-# RedAI — Adversarial Agent-Learning in SNAPT
+# CyberAgent — Adversarial Agent-Learning in SNAPT
 
 Reproduction and extension of Shashkov et al. (2023), *"Adversarial Agent-Learning for Cybersecurity: A Comparison of Algorithms"*. We implement **A2C** (deep reinforcement learning) and **CEM** (evolutionary strategy) agents on the **SNAPT** environment - a simplified network APT threat model, and compare them as both attackers and defenders across multiple network topologies.
 
